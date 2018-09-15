@@ -1,2 +1,2 @@
 # algOrithms
-a repository for algos in diffrent languages , contribute as much as you can
+a repository for algos in different languages , contribute as much as you can
