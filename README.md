@@ -2,6 +2,16 @@
 
 A repository for algorithms in different languages , contribute as much as you can !!!
 
+## INDEX
+
+* SEARCHING
+  * LINEAR-SEARCH
+    * [C++](SEARCHING/LINEAR-SEARCH/C++/linear.cpp)
+* SORTING
+  * BUBBLE-SORT
+    * [C++](SORTING/BUBBLE-SORT/C++/bubblesort.cpp)
+* MISC
+
 ## DIRECTORY STRUCTURE
 
 * SEARCHING
