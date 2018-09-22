@@ -4,6 +4,12 @@ A repository for algorithms in different languages , contribute as much as you c
 
 ## DIRECTORY STRUCTURE
 
+* SEARCHING
+* SORTING
+* MISC
+  
+### SUB-DIRECTORY STRUCTURE
+
 * Algorithm Name
   * Langauge name
     * code with extension
