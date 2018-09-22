@@ -11,6 +11,6 @@ A repository for algorithms in different languages , contribute as much as you c
 ### SUB-DIRECTORY STRUCTURE
 
 * Algorithm Name
-  * Langauge name
-    * code with extension
+  * Language Name
+    * Code with Extension
     * .gitignore
