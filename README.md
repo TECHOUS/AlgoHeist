@@ -6,7 +6,6 @@ A repository for algorithms in different languages , contribute as much as you c
 
 * SEARCHING
   * LINEAR-SEARCH
-    * [C](SEARCHING/LINEAR-SEARCH/C/linear.c)
     * [C++](SEARCHING/LINEAR-SEARCH/C++/linear.cpp)
 * SORTING
   * BUBBLE-SORT
