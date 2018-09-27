@@ -12,6 +12,7 @@ A repository for algorithms in different languages , contribute as much as you c
   * BUBBLE-SORT
     * [C](SORTING/BUBBLE-SORT/C/bubblesort.c)
     * [C++](SORTING/BUBBLE-SORT/C++/bubblesort.cpp)
+    * [JAVA](SORTING/BUBBLE-SORT/JAVA/BubbleSort.java)
 * MISC
 
 ## DIRECTORY STRUCTURE
