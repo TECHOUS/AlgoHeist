@@ -14,6 +14,8 @@ A repository for algorithms in different languages , contribute as much as you c
     * [C++](SORTING/BUBBLE-SORT/C++/bubblesort.cpp)
     * [JAVA](SORTING/BUBBLE-SORT/JAVA/BubbleSort.java)
 * MISC
+  * SPELL THE NUMBER
+    * [C](MISC/Spell-the-number/C/spell_the_number.c)
 
 ## DIRECTORY STRUCTURE
 
