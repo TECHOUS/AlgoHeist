@@ -8,6 +8,7 @@ A repository for algorithms in different languages , contribute as much as you c
   * LINEAR-SEARCH
     * [C](SEARCHING/LINEAR-SEARCH/C/linear.c)
     * [C++](SEARCHING/LINEAR-SEARCH/C++/linear.cpp)
+    * [JAVA](SEARCHING/LINEAR-SEARCH/JAVA/linearSearch.java)
 * SORTING
   * BUBBLE-SORT
     * [C](SORTING/BUBBLE-SORT/C/bubblesort.c)
