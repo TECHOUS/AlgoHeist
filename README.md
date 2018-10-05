@@ -16,6 +16,8 @@ A repository for algorithms in different languages , contribute as much as you c
 * MISC
   * SPELL THE NUMBER
     * [C](MISC/Spell-the-number/C/spell_the_number.c)
+  * CAESAR-CIPHER
+    * [PYTHON](MISC/Caesar-Cipher/Python/caesar-cipher.py)
 
 ## DIRECTORY STRUCTURE
 
