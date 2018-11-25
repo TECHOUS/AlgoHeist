@@ -1,6 +1,6 @@
 //BUBBLE SORT
-//ASCENDING ORDER
-//STABLE SORT
+//DESCENDING ORDER
+//UNSTABLE SORT
 #include <stdio.h>
 void bubblesort(int arr[],int n)
 {
@@ -8,7 +8,7 @@ void bubblesort(int arr[],int n)
     {
         for(register int j=0;j<i;j++)
         {
-            if(arr[j]>arr[j+1])
+            if(arr[j]<=arr[j+1])
             {
                 //swap
                 int temp = arr[j+1];
