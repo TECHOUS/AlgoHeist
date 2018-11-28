@@ -11,7 +11,11 @@ A repository for algorithms in different languages , contribute as much as you c
     * [JAVA](SEARCHING/LINEAR-SEARCH/JAVA/linearSearch.java)
 * SORTING
   * BUBBLE-SORT
-    * [C](SORTING/BUBBLE-SORT/C/bubblesort.c)
+    * [C]
+      * [ASCENDING AND STABLE](SORTING/BUBBLE-SORT/C/bubblesort.c)
+      * [DESCENDING AND STABLE](SORTING/BUBBLE-SORT/C/bubble.c)
+      * [ASCENDING AND UNSTABLE](SORTING/BUBBLE-SORT/C/ascendunbubble.c)
+      * [DESCENDING AND UNSTABLE](SORTING/BUBBLE-SORT/C/descendunbubble.c)
     * [C++](SORTING/BUBBLE-SORT/C++/bubblesort.cpp)
     * [JAVA](SORTING/BUBBLE-SORT/JAVA/BubbleSort.java)
   * SELECTION SORT
