@@ -6,7 +6,9 @@ A repository for algorithms in different languages , contribute as much as you c
 
 * SEARCHING
   * LINEAR-SEARCH
-    * [C](SEARCHING/LINEAR-SEARCH/C/linear.c)
+    * C
+      * [Iterative](SEARCHING/LINEAR-SEARCH/C/linear.c)
+      * [Recursive](SEARCHING/LINEAR-SEARCH/C/recurLinearSearch.c)
     * [C++](SEARCHING/LINEAR-SEARCH/C++/linear.cpp)
     * [JAVA](SEARCHING/LINEAR-SEARCH/JAVA/linearSearch.java)
   * BINARY SEARCH
