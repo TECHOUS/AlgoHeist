@@ -34,6 +34,10 @@ A repository for algorithms in different languages , contribute as much as you c
         * [USING MIN ELEMENT](SORTING/SELECTION-SORT/C/minselection.c)
   * INSERTION-SORT
     * [C](SORTING/INSERTION-SORT/C/insertionsort.c)
+* STRINGS
+  * REVERSE A STRING
+    * [C](STRINGS/REVERSE-A-STRING/C/reverse-a-string.c)
+    * [JAVA](STRINGS/REVERSE-A-STRING/JAVA/reverseString.java)
 * MISC
   * SPELL THE NUMBER
     * [C](MISC/Spell-the-number/C/spell_the_number.c)
