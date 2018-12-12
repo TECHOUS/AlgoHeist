@@ -9,6 +9,10 @@ A repository for algorithms in different languages , contribute as much as you c
     * [C](SEARCHING/LINEAR-SEARCH/C/linear.c)
     * [C++](SEARCHING/LINEAR-SEARCH/C++/linear.cpp)
     * [JAVA](SEARCHING/LINEAR-SEARCH/JAVA/linearSearch.java)
+  * BINARY SEARCH
+    * C
+      * [With recursion](SEARCHING/BINARY-SEARCH/C/binarySearch.c)
+      * [Without recursion](SEARCHING/BINARY-SEARCH/C/binarysearch.c)
 * SORTING
   * BUBBLE-SORT
     * [C]
