@@ -34,6 +34,11 @@ A repository for algorithms in different languages , contribute as much as you c
         * [USING MIN ELEMENT](SORTING/SELECTION-SORT/C/minselection.c)
   * INSERTION-SORT
     * [C](SORTING/INSERTION-SORT/C/insertionsort.c)
+    * JAVA
+      * ascending
+        * [shifting bigger to right](SORTING/INSERTION-SORT/JAVA/insertionSort.java)
+      * descending
+        * [shifting smaller to right](SORTING/INSERTION-SORT/JAVA/InsertionSort.java)
 * STRINGS
   * REVERSE A STRING
     * [C](STRINGS/REVERSE-A-STRING/C/reverse-a-string.c)
