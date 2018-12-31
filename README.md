@@ -32,6 +32,11 @@ A repository for algorithms in different languages , contribute as much as you c
       * DESCENDING
         * [USING MAX ELEMENT](SORTING/SELECTION-SORT/C/maxselection.c)
         * [USING MIN ELEMENT](SORTING/SELECTION-SORT/C/minselection.c)
+    * JAVA
+      * ASCENDING
+        * [USING MAX ELEMENT](SORTING/SELECTION-SORT/JAVA/SelectionSort.java)
+      * DESCENDING
+        * [USING MIN ELEMENT](SORTING/SELECTION-SORT/JAVA/selectionsort.java)
   * INSERTION-SORT
     * [C](SORTING/INSERTION-SORT/C/insertionsort.c)
     * JAVA
