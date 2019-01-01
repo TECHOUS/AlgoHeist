@@ -44,6 +44,10 @@ A repository for algorithms in different languages , contribute as much as you c
         * [shifting bigger to right](SORTING/INSERTION-SORT/JAVA/insertionSort.java)
       * descending
         * [shifting smaller to right](SORTING/INSERTION-SORT/JAVA/InsertionSort.java)
+  * SHELL-SORT
+    * JAVA
+      * [ASCENDING](SORTING/SHELL-SORT/JAVA/ShellSort.java)
+      * [DESCENDING](SORTING/SHELL-SORT/JAVA/shellSort.java)
 * STRINGS
   * REVERSE A STRING
     * [C](STRINGS/REVERSE-A-STRING/C/reverse-a-string.c)
