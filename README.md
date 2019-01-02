@@ -11,10 +11,14 @@ A repository for algorithms in different languages , contribute as much as you c
       * [Recursive](SEARCHING/LINEAR-SEARCH/C/recurLinearSearch.c)
     * [C++](SEARCHING/LINEAR-SEARCH/C++/linear.cpp)
     * [JAVA](SEARCHING/LINEAR-SEARCH/JAVA/linearSearch.java)
+    * [Python](SEARCHING/LINEAR-SEARCH/Python/linearSearch.py)
   * BINARY SEARCH
     * C
       * [With recursion](SEARCHING/BINARY-SEARCH/C/binarySearch.c)
       * [Without recursion](SEARCHING/BINARY-SEARCH/C/binarysearch.c)
+    * [C++](SEARCHING/BINARY-SEARCH/C++/binarySearch.cpp)
+    * [JAVA](SEARCHING/BINARY-SEARCH/JAVA/BinarySearch.java)
+    * [Python](SEARCHING/BINARY-SEARCH/Python/binarySearch.py)
 * SORTING
   * BUBBLE-SORT
     * [C]
@@ -54,7 +58,7 @@ A repository for algorithms in different languages , contribute as much as you c
 * SEARCHING
 * SORTING
 * MISC
-  
+
 ### SUB-DIRECTORY STRUCTURE
 
 * Algorithm Name
