@@ -15,6 +15,8 @@ A repository for algorithms in different languages , contribute as much as you c
     * C
       * [With recursion](SEARCHING/BINARY-SEARCH/C/binarySearch.c)
       * [Without recursion](SEARCHING/BINARY-SEARCH/C/binarysearch.c)
+    * C++
+      * [Without recursion](SEARCHING/BINARY-SEARCH/C++/BinarySearch.cpp)
 * SORTING
   * BUBBLE-SORT
     * [C]
@@ -52,6 +54,7 @@ A repository for algorithms in different languages , contribute as much as you c
   * REVERSE A STRING
     * [C](STRINGS/REVERSE-A-STRING/C/reverse-a-string.c)
     * [JAVA](STRINGS/REVERSE-A-STRING/JAVA/reverseString.java)
+    * [PYTHON](STRINGS/REVERSE-A-STRING/PYTHON/reverseString.py)
 * MISC
   * SPELL THE NUMBER
     * [C](MISC/Spell-the-number/C/spell_the_number.c)
