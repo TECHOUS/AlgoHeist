@@ -16,9 +16,12 @@ A repository for algorithms in different languages , contribute as much as you c
     * C
       * [With recursion](SEARCHING/BINARY-SEARCH/C/binarySearch.c)
       * [Without recursion](SEARCHING/BINARY-SEARCH/C/binarysearch.c)
-    * [C++](SEARCHING/BINARY-SEARCH/C++/binarySearch.cpp)
+    * C++
+      * [Without recursion](SEARCHING/BINARY-SEARCH/C++/BinarySearch.cpp)
+      * [Without recursion 2](SEARCHING/BINARY-SEARCH/C++/binarySearch.cpp)
     * [JAVA](SEARCHING/BINARY-SEARCH/JAVA/BinarySearch.java)
     * [Python](SEARCHING/BINARY-SEARCH/Python/binarySearch.py)
+
 * SORTING
   * BUBBLE-SORT
     * [C]
@@ -36,6 +39,11 @@ A repository for algorithms in different languages , contribute as much as you c
       * DESCENDING
         * [USING MAX ELEMENT](SORTING/SELECTION-SORT/C/maxselection.c)
         * [USING MIN ELEMENT](SORTING/SELECTION-SORT/C/minselection.c)
+    * JAVA
+      * ASCENDING
+        * [USING MAX ELEMENT](SORTING/SELECTION-SORT/JAVA/SelectionSort.java)
+      * DESCENDING
+        * [USING MIN ELEMENT](SORTING/SELECTION-SORT/JAVA/selectionsort.java)
   * INSERTION-SORT
     * [C](SORTING/INSERTION-SORT/C/insertionsort.c)
     * JAVA
@@ -43,13 +51,19 @@ A repository for algorithms in different languages , contribute as much as you c
         * [shifting bigger to right](SORTING/INSERTION-SORT/JAVA/insertionSort.java)
       * descending
         * [shifting smaller to right](SORTING/INSERTION-SORT/JAVA/InsertionSort.java)
+  * SHELL-SORT
+    * JAVA
+      * [ASCENDING](SORTING/SHELL-SORT/JAVA/ShellSort.java)
+      * [DESCENDING](SORTING/SHELL-SORT/JAVA/shellSort.java)
 * STRINGS
   * REVERSE A STRING
     * [C](STRINGS/REVERSE-A-STRING/C/reverse-a-string.c)
     * [JAVA](STRINGS/REVERSE-A-STRING/JAVA/reverseString.java)
+    * [PYTHON](STRINGS/REVERSE-A-STRING/PYTHON/reverseString.py)
   * Pallindrome
     * [C++](STRINGS/Pallindrome/Python/Pallindrome.cpp)
     * [Python](STRINGS/Pallindrome/Python/Pallindrome.py)
+
 * MISC
   * SPELL THE NUMBER
     * [C](MISC/Spell-the-number/C/spell_the_number.c)
