@@ -48,6 +48,10 @@ A repository for algorithms in different languages , contribute as much as you c
     * JAVA
       * [ASCENDING](SORTING/SHELL-SORT/JAVA/ShellSort.java)
       * [DESCENDING](SORTING/SHELL-SORT/JAVA/shellSort.java)
+  * HEAP-SORT
+    * [C++](SORTING/HEAP-SORT/C++/Heap_Sort.cpp)
+  * MERGE-SORT
+    * [Python](SORTING/MERGE-SORT/PYTHON/Merge_Sort.py)
 * STRINGS
   * REVERSE A STRING
     * [C](STRINGS/REVERSE-A-STRING/C/reverse-a-string.c)
@@ -63,7 +67,7 @@ A repository for algorithms in different languages , contribute as much as you c
 * SEARCHING
 * SORTING
 * MISC
-  
+
 ### SUB-DIRECTORY STRUCTURE
 
 * Algorithm Name
