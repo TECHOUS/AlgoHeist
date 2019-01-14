@@ -63,9 +63,9 @@ A repository for algorithms in different languages , contribute as much as you c
     * [C](STRINGS/REVERSE-A-STRING/C/reverse-a-string.c)
     * [JAVA](STRINGS/REVERSE-A-STRING/JAVA/reverseString.java)
     * [PYTHON](STRINGS/REVERSE-A-STRING/PYTHON/reverseString.py)
-  * Pallindrome
-    * [C++](STRINGS/Pallindrome/Python/Pallindrome.cpp)
-    * [Python](STRINGS/Pallindrome/Python/Pallindrome.py)
+  * String is Palindrome or not
+    * [C++](STRINGS/Palindrome/C++/Palindrome.cpp)
+    * [Python](STRINGS/Palindrome/Python/Palindrome.py)
 
 * MISC
   * SPELL THE NUMBER
