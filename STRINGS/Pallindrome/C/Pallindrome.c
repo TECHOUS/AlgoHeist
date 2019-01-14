@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 int isPallindrome(char str[]){
 
@@ -16,9 +17,13 @@ int isPallindrome(char str[]){
 
 }
 
-void main(){
+int main(){
 
-    char str[50];
+    int n;
+    printf("Enter max size of string = ");
+    scanf("%d", &n);
+
+    char *str = (char *) malloc(sizeof(char) * n);
     printf("Enter a string = ");
     scanf("%s", str);
 
@@ -27,5 +32,9 @@ void main(){
         printf("not ");
     }
     printf("Pallindrome\n");
+
+    free(str);
+
+    return 0;
 
 }

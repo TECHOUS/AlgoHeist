@@ -1,9 +1,10 @@
 #include <iostream>
-#include <string.h>
+#include <cstring>
+#include <limits>
 
 using namespace std;
 
-void reverse(char str[]){
+void reverse(char *str){
 
     int len = strlen(str);
     char ch;
@@ -21,14 +22,20 @@ void reverse(char str[]){
 
 int main(){
 
-    char str[20];
+    int n;
+    cout<<"Enter max size of string = ";
+    cin>>n;
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
+    char *str = new char[n];
     cout<<"Enter a string = ";
-    cin.getline(str, 20);
+    cin.getline(str, n);
 
     cout <<"Reverse of "<<str <<" = ";
     reverse(str);
     cout <<str <<endl;
+
+    delete[] str;
 
     return 0;
 }
