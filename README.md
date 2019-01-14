@@ -18,7 +18,6 @@ A repository for algorithms in different languages , contribute as much as you c
       * [Without recursion](SEARCHING/BINARY-SEARCH/C/binarysearch.c)
     * C++
       * [Without recursion](SEARCHING/BINARY-SEARCH/C++/BinarySearch.cpp)
-      * [Without recursion 2](SEARCHING/BINARY-SEARCH/C++/binarySearch.cpp)
     * [JAVA](SEARCHING/BINARY-SEARCH/JAVA/BinarySearch.java)
     * [Python](SEARCHING/BINARY-SEARCH/Python/binarySearch.py)
 
