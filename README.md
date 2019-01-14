@@ -62,10 +62,13 @@ A repository for algorithms in different languages , contribute as much as you c
 * STRINGS
   * REVERSE A STRING
     * [C](STRINGS/REVERSE-A-STRING/C/reverse-a-string.c)
+    * [C++](STRINGS/REVERSE-A-STRING/C++/Reverse_String.cpp)
     * [JAVA](STRINGS/REVERSE-A-STRING/JAVA/reverseString.java)
     * [PYTHON](STRINGS/REVERSE-A-STRING/PYTHON/reverseString.py)
   * Pallindrome
-    * [C++](STRINGS/Pallindrome/Python/Pallindrome.cpp)
+    * [C](STRINGS/Pallindrome/C/Pallindrome.c)
+    * [C++](STRINGS/Pallindrome/C++/Pallindrome.cpp)
+    * [JAVA](STRINGS/Pallindrome/JAVA/Pallindrome.java)
     * [Python](STRINGS/Pallindrome/Python/Pallindrome.py)
 
 * MISC
