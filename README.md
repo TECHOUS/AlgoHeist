@@ -69,6 +69,11 @@ A repository for algorithms in different languages , contribute as much as you c
     * [C++](STRINGS/Pallindrome/C++/Pallindrome.cpp)
     * [JAVA](STRINGS/Pallindrome/JAVA/Pallindrome.java)
     * [Python](STRINGS/Pallindrome/Python/Pallindrome.py)
+  * Anagram
+    * [C](STRINGS/Anagram/C/Anagram.c)
+    * [C++](STRINGS/Anagram/C++/Anagram.cpp)
+    * [JAVA](STRINGS/Anagram/JAVA/Anagram.java)
+    * [Python](STRINGS/Anagram/PYTHON/Anagram.py)
 
 * MISC
   * SPELL THE NUMBER
