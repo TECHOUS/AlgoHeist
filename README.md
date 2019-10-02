@@ -2,6 +2,10 @@
 
 A repository for algorithms in different languages , contribute as much as you can !!!
 
+## CONTRIBUTION
+
+For contribution you can see our [guidelines](CONTRIBUTING.md)
+
 ## INDEX
 
 * SEARCHING
@@ -93,3 +97,7 @@ A repository for algorithms in different languages , contribute as much as you c
   * Language Name
     * Code with Extension
     * .gitignore
+
+## LICENSE
+
+[GNU GENERAL PUBLIC LICENSE](LICENSE)
