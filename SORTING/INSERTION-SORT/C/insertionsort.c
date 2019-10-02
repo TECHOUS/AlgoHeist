@@ -1,36 +1,29 @@
-//INSERTION SORT
-//FROM RIGHT
-//ASCENDING
-#include <stdio.h>
-void insertionsort(int arr[],int n)
-{
-    for(register int i=n-2;i>=0;i--)
-    {
-        int sample = arr[i];//element to insert
-        register int j;
-        for(j=i;j<n-1 && arr[j+1]<sample;j++)
-        {
-            arr[j] = arr[j+1];
-        }
-        arr[j] = sample;
-    }
-}
+#include<stdio.h>
 int main()
 {
-    printf("Enter the size of the array\n");
-    int n;
-    scanf("%d",&n);
-    int arr[n];
-    printf("Enter the elements of the array\n");
-    for(register int i=0;i<n;i++)
-    {
-        scanf("%d",&arr[i]);
-    }
-    insertionsort(arr,n);
-    printf("SORTED ARRAY:\n");
-    for(register int i=0;i<n;i++)
-    {
-        printf("%d ",arr[i]);
-    }
-    printf("\n");
+int data[100],n,temp,i,j;
+printf("Enter number of terms(should be less than 100): ");
+scanf("%d",&n);
+printf("Enter elements: ");
+for(i=0;i<n;i++)
+{
+scanf("%d",&data[i]);
 }
+for(i=1;i<n;i++)
+{
+temp = data[i];
+j=i-1;
+while(temp<data[j] && j>=0)
+/*To sort elements in descending order, change temp<data[j] to temp>data[j] in above line.*/
+{
+data[j+1] = data[j];
+--j;
+}
+data[j+1]=temp;
+}
+printf("In ascending order: ");
+for(i=0; i<n; i++)
+printf("%d\t",data[i]);
+return 0;
+}
+
