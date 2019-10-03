@@ -2,7 +2,7 @@
 #include <bits/stdc++.h> 
 using namespace std; 
 
-
+//Custom Swap function
 void swap(int* a, int* b) 
 { 
 	int t = *a; 
@@ -10,7 +10,10 @@ void swap(int* a, int* b)
 	*b = t; 
 } 
 
-
+/* This function takes last element as pivot, places  
+the pivot element at its correct position in sorted  
+array, and places all smaller to left of pivot and all greater elements to right  
+of pivot */
 int partition (int arr[], int low, int high) 
 { 
 	int pivot = arr[high];  
@@ -29,7 +32,7 @@ int partition (int arr[], int low, int high)
 	return (i + 1); 
 } 
 
-
+/* The main function that implements QuickSort*/ 
 void quickSort(int arr[], int low, int high) 
 { 
 	if (low < high) 
@@ -42,7 +45,7 @@ void quickSort(int arr[], int low, int high)
 		quickSort(arr, pi + 1, high); 
 	} 
 } 
-
+//Finction to print array
 void printArray(int arr[], int size) 
 { 
 	int i; 
@@ -50,7 +53,7 @@ void printArray(int arr[], int size)
 		cout << arr[i] << " "; 
 	cout << endl; 
 } 
-
+//Driver function
 int main() 
 { 	
 	cout<<"Please enter the number of items you want to sort"<<endl;
