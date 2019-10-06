@@ -6,6 +6,19 @@ A repository for algorithms in different languages , contribute as much as you c
 
 For contribution you can see our [guidelines](CONTRIBUTING.md)
 
+## DIRECTORY STRUCTURE
+
+* SEARCHING
+* SORTING
+* MISC
+
+### SUB-DIRECTORY STRUCTURE
+
+* Algorithm Name
+  * Language Name
+    * Code with Extension
+    * .gitignore
+
 ## INDEX
 
 * SEARCHING
@@ -62,6 +75,8 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [C++](SORTING/HEAP-SORT/C++/Heap_Sort.cpp)
   * MERGE-SORT
     * [Python](SORTING/MERGE-SORT/PYTHON/Merge_Sort.py)
+  * QUICK-SORT
+    * [C++](SORTING/QUICK-SORT/C++/QuickSort.cpp)
 * STRINGS
   * REVERSE A STRING
     * [C](STRINGS/REVERSE-A-STRING/C/reverse-a-string.c)
@@ -78,25 +93,20 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [C++](STRINGS/Anagram/C++/Anagram.cpp)
     * [JAVA](STRINGS/Anagram/JAVA/Anagram.java)
     * [Python](STRINGS/Anagram/PYTHON/Anagram.py)
-
+* GRAPHS
+  * BREADTH FIRST SEARCH
+    * [C++](GRAPH_ALGORITHMS/C++/BFS.cpp)
+  * DEPTH FIRST SEARCH
+    * [C++](GRAPH_ALGORITHMS/C++/DFS.cpp)
+  * DIJKSTRA ALGORITHM
+    * [C++](GRAPH_ALGORITHMS/C++/DIJKSTRA.cpp)
+  * KRUSHAL ALGORITHM
+    * [C++](GRAPH_ALGORITHMS/C++/KRUSKAL.cpp)
 * MISC
   * SPELL THE NUMBER
     * [C](MISC/Spell-the-number/C/spell_the_number.c)
   * CAESAR-CIPHER
     * [PYTHON](MISC/Caesar-Cipher/Python/caesar-cipher.py)
-
-## DIRECTORY STRUCTURE
-
-* SEARCHING
-* SORTING
-* MISC
-
-### SUB-DIRECTORY STRUCTURE
-
-* Algorithm Name
-  * Language Name
-    * Code with Extension
-    * .gitignore
 
 ## LICENSE
 

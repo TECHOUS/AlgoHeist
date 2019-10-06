@@ -2,7 +2,11 @@
 #include <bits/stdc++.h> 
 using namespace std; 
 
-//Custom Swap function
+/**
+ * Custom Swap function
+ * @param a
+ * @param b
+ **/
 void swap(int* a, int* b) 
 { 
 	int t = *a; 
@@ -10,10 +14,16 @@ void swap(int* a, int* b)
 	*b = t; 
 } 
 
-/* This function takes last element as pivot, places  
-the pivot element at its correct position in sorted  
-array, and places all smaller to left of pivot and all greater elements to right  
-of pivot */
+/** 
+ * This function takes last element as pivot, places  
+ * the pivot element at its correct position in sorted  
+ * array, and places all smaller to left of pivot and all greater elements to right  
+ * of pivot
+ * @param arr
+ * @param low
+ * @param high 
+ * @return int
+ **/
 int partition (int arr[], int low, int high) 
 { 
 	int pivot = arr[high];  
@@ -32,7 +42,12 @@ int partition (int arr[], int low, int high)
 	return (i + 1); 
 } 
 
-/* The main function that implements QuickSort*/ 
+/**
+ * The main function that implements QuickSort 
+ * @param arr
+ * @param low
+ * @param high
+ **/ 
 void quickSort(int arr[], int low, int high) 
 { 
 	if (low < high) 
@@ -45,7 +60,12 @@ void quickSort(int arr[], int low, int high)
 		quickSort(arr, pi + 1, high); 
 	} 
 } 
-//Finction to print array
+
+/**
+ * Function to print array
+ * @param arr
+ * @param size
+ **/
 void printArray(int arr[], int size) 
 { 
 	int i; 
@@ -53,16 +73,16 @@ void printArray(int arr[], int size)
 		cout << arr[i] << " "; 
 	cout << endl; 
 } 
-//Driver function
+
 int main() 
 { 	
-	cout<<"Please enter the number of items you want to sort"<<endl;
+	cout << "Please enter the number of items you want to sort" << endl;
 	int n,i;
-	cin>>n;
+	cin >> n;
 	int arr[n];
-	for(i=0;i<n;i++)
+	for(i=0; i<n ;i++)
 	{
-		cin>>arr[i];
+		cin >> arr[i];
 	}
 	
 	quickSort(arr, 0, n - 1); 
@@ -70,4 +90,3 @@ int main()
 	printArray(arr, n); 
 	return 0; 
 } 
-

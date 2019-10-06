@@ -2,14 +2,15 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
- 
-#define edge pair<int,int>
- 
+
+#define edge pair<int, int>
+
 class Graph {
 private:
     vector<pair<int, edge>> G; 
     int *parent;
-    int V; 
+    int V;
+    vector<pair<int, edge>> T; 
 public:
     Graph(int V);
     void AddWeightedEdge(int u, int v, int w);
@@ -18,32 +19,34 @@ public:
     void kruskal();
     void print();
 };
+
 Graph::Graph(int V) {
     parent = new int[V];
- 
+
     //i 0 1 2 3 4 5
     //parent[i] 0 1 2 3 4 5
     for (int i = 0; i < V; i++)
         parent[i] = i;
- 
+
     G.clear();
     T.clear();
 }
+
 void Graph::AddWeightedEdge(int u, int v, int w) {
     G.push_back(make_pair(w, edge(u, v)));
 }
-int Graph::find_set(int i) {
 
+int Graph::find_set(int i) {
     if (i == parent[i])
         return i;
     else
-
         return find_set(parent[i]);
 }
- 
+
 void Graph::union_set(int u, int v) {
     parent[u] = parent[v];
 }
+
 void Graph::kruskal() {
     int i, uRep, vRep;
     sort(G.begin(), G.end()); // increasing weight
@@ -56,14 +59,14 @@ void Graph::kruskal() {
         }
     }
 }
+
 void Graph::print() {
     cout << "Edge :" << " Weight" << endl;
     for (int i = 0; i < T.size(); i++) {
-        cout << T[i].second.first << " - " << T[i].second.second << " : "
-                << T[i].first;
-        cout << endl;
+        cout << T[i].second.first << " - " << T[i].second.second << " : " << T[i].first << endl;
     }
 }
+
 int main() {
     Graph g(6);
     g.AddWeightedEdge(0, 1, 4);
