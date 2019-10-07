@@ -47,6 +47,7 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
       * [DESCENDING AND UNSTABLE](SORTING/BUBBLE-SORT/C/descendunbubble.c)
     * [C++](SORTING/BUBBLE-SORT/C++/bubblesort.cpp)
     * [JAVA](SORTING/BUBBLE-SORT/JAVA/BubbleSort.java)
+    * [PYTHON](SORTING/BUBBLE-SORT/PYTHON/bubble_sort.py)
   * SELECTION SORT
     * C
       * ASCENDING
