@@ -7,3 +7,4 @@
 5. Aniket Batabyal ([anarchymonkey](https://github.com/anarchymonkey))
 6. Nidhi Mittal ([nidhimittal2](https://github.com/nidhimittal2))
 7. Ramanpreet Singh ([Ramanpreet6262](https://github.com/Ramanpreet6262))
+8. Pratyay Banerjee ([Neilblaze](https://github.com/Neilblaze))
