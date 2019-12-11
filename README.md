@@ -94,6 +94,8 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [C++](STRINGS/Anagram/C++/Anagram.cpp)
     * [JAVA](STRINGS/Anagram/JAVA/Anagram.java)
     * [Python](STRINGS/Anagram/PYTHON/Anagram.py)
+  * Pattern-Searching
+    * [C](STRINGS/Pattern-Searching/C/KMP.c)
 * GRAPHS
   * BREADTH FIRST SEARCH
     * [C++](GRAPH_ALGORITHMS/C++/BFS.cpp)
