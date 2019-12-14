@@ -2,6 +2,23 @@
 
 A repository for algorithms in different languages , contribute as much as you can !!!
 
+## CONTRIBUTION
+
+For contribution you can see our [guidelines](CONTRIBUTING.md)
+
+## DIRECTORY STRUCTURE
+
+* SEARCHING
+* SORTING
+* MISC
+
+### SUB-DIRECTORY STRUCTURE
+
+* Algorithm Name
+  * Language Name
+    * Code with Extension
+    * .gitignore
+
 ## INDEX
 
 * SEARCHING
@@ -30,6 +47,7 @@ A repository for algorithms in different languages , contribute as much as you c
       * [DESCENDING AND UNSTABLE](SORTING/BUBBLE-SORT/C/descendunbubble.c)
     * [C++](SORTING/BUBBLE-SORT/C++/bubblesort.cpp)
     * [JAVA](SORTING/BUBBLE-SORT/JAVA/BubbleSort.java)
+    * [PYTHON](SORTING/BUBBLE-SORT/PYTHON/bubble_sort.py)
   * SELECTION SORT
     * C
       * ASCENDING
@@ -58,6 +76,8 @@ A repository for algorithms in different languages , contribute as much as you c
     * [C++](SORTING/HEAP-SORT/C++/Heap_Sort.cpp)
   * MERGE-SORT
     * [Python](SORTING/MERGE-SORT/PYTHON/Merge_Sort.py)
+  * QUICK-SORT
+    * [C++](SORTING/QUICK-SORT/C++/QuickSort.cpp)
 * STRINGS
   * REVERSE A STRING
     * [C](STRINGS/REVERSE-A-STRING/C/reverse-a-string.c)
@@ -74,22 +94,21 @@ A repository for algorithms in different languages , contribute as much as you c
     * [C++](STRINGS/Anagram/C++/Anagram.cpp)
     * [JAVA](STRINGS/Anagram/JAVA/Anagram.java)
     * [Python](STRINGS/Anagram/PYTHON/Anagram.py)
-
+* GRAPHS
+  * BREADTH FIRST SEARCH
+    * [C++](GRAPH_ALGORITHMS/C++/BFS.cpp)
+  * DEPTH FIRST SEARCH
+    * [C++](GRAPH_ALGORITHMS/C++/DFS.cpp)
+  * DIJKSTRA ALGORITHM
+    * [C++](GRAPH_ALGORITHMS/C++/DIJKSTRA.cpp)
+  * KRUSHAL ALGORITHM
+    * [C++](GRAPH_ALGORITHMS/C++/KRUSKAL.cpp)
 * MISC
   * SPELL THE NUMBER
     * [C](MISC/Spell-the-number/C/spell_the_number.c)
   * CAESAR-CIPHER
     * [PYTHON](MISC/Caesar-Cipher/Python/caesar-cipher.py)
 
-## DIRECTORY STRUCTURE
+## LICENSE
 
-* SEARCHING
-* SORTING
-* MISC
-
-### SUB-DIRECTORY STRUCTURE
-
-* Algorithm Name
-  * Language Name
-    * Code with Extension
-    * .gitignore
+[GNU GENERAL PUBLIC LICENSE](LICENSE)
