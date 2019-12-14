@@ -24,7 +24,7 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
 * SEARCHING
   * LINEAR-SEARCH
     * C
-      * [Iterative](SEARCHING/LINEAR-SEARCH/C/linear.c)
+      * [Iterative](SEARCHING/LINEAR-SEARCH/C/LinearSearch.c)
       * [Recursive](SEARCHING/LINEAR-SEARCH/C/recurLinearSearch.c)
     * [C++](SEARCHING/LINEAR-SEARCH/C++/linear.cpp)
     * [JAVA](SEARCHING/LINEAR-SEARCH/JAVA/linearSearch.java)
