@@ -29,6 +29,7 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [C++](SEARCHING/LINEAR-SEARCH/C++/linear.cpp)
     * [JAVA](SEARCHING/LINEAR-SEARCH/JAVA/linearSearch.java)
     * [Python](SEARCHING/LINEAR-SEARCH/Python/linearSearch.py)
+    * [JavaScript](SEARCHING/LINEAR-SEARCH/JS/LinearSearch.js)
   * BINARY SEARCH
     * C
       * [With recursion](SEARCHING/BINARY-SEARCH/C/binarySearch.c)
