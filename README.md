@@ -26,7 +26,7 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * C
       * [Iterative](SEARCHING/LINEAR-SEARCH/C/LinearSearch.c)
       * [Recursive](SEARCHING/LINEAR-SEARCH/C/recurLinearSearch.c)
-    * [C++](SEARCHING/LINEAR-SEARCH/C++/linear.cpp)
+    * [C++](SEARCHING/LINEAR-SEARCH/C++/linearSearch.cpp)
     * [JAVA](SEARCHING/LINEAR-SEARCH/JAVA/linearSearch.java)
     * [Python](SEARCHING/LINEAR-SEARCH/Python/linearSearch.py)
     * [JavaScript](SEARCHING/LINEAR-SEARCH/JS/LinearSearch.js)
