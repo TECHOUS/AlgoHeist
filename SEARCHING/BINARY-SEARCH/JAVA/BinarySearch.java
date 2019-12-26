@@ -2,46 +2,47 @@ import java.util.Scanner;
 
 class BinarySearch{
 
-    public static int binarySearch(int arr[], int find){
+    /**
+     * this function contains the code for iterative binary search
+     * @param array
+     * @param find
+     * @return int
+     **/
+    public static int binarySearch(int array[], int find){
+        int startIndex = 0, endIndex = arr.length, midIndex;
 
-        int s = 0, e = arr.length, mid;
-
-        while( s < e ){
-
-            mid = (s+e)/2;
-
-            if( arr[mid] == find ){
-                return mid;
+        while( startIndex < endIndex ){
+            midIndex = (startIndex + endIndex) / 2;
+            if( arr[midIndex] == find ){
+                return midIndex;
             }
-            else if( find < arr[mid] ){
-                e = mid;
+            else if( find < arr[midIndex] ){
+                endIndex = midIndex;
             }
             else{
-                s = mid+1;
+                startIndex = midIndex+1;
             }
         }
-
         return -1;
     }
 
     public static void main(String args[]){
-
-        int n, find, loc;
+        int size, find, loc;
         Scanner in = new Scanner(System.in);
 
         System.out.print("Enter the size of array = ");
-        n = in.nextInt();
+        size = in.nextInt();
 
-        int arr[] = new int[n];
-        System.out.println("Enter " + n + " sorted elements in array :");
-        for(int i=0; i<n; i++){
-            arr[i] = in.nextInt();
+        int array[] = new int[size];
+        System.out.println("Enter " + size + " sorted elements in array :");
+        for(int i=0; i<size; i++){
+            array[i] = in.nextInt();
         }
 
         System.out.print("Enter value to find = ");
         find = in.nextInt();
 
-        loc = binarySearch(arr, find);
+        loc = binarySearch(array, find);
 
         if( loc == -1 ){
             System.out.println("value Not found in array");
@@ -49,5 +50,6 @@ class BinarySearch{
         else{
             System.out.println("value found at index " + loc);
         }
+        in.close();
     }
 }
