@@ -1,42 +1,53 @@
 #include <stdio.h>
-//binary search
-int binarySearch(int arr[],int l,int r,int key)
+
+/**
+ * this function contains the logic for recursive binary search
+ * 
+ * @param array
+ * @param leftIndex
+ * @param rightIndex
+ * @param key
+ * 
+ * @return int
+ **/
+int binarySearch(int array[], int leftIndex, int rightIndex, int key)
 {
-    if(l<=r)
+    if(leftIndex <= rightIndex)
     {
-        int mid = (l+r)/2;
-        if(arr[mid]==key)
+        int midIndex = (leftIndex + rightIndex) / 2;
+        if(array[midIndex] == key)
         {
-            return mid;
+            return midIndex;
         }
-        if(arr[mid]<key)
+        if(array[midIndex] < key)
         {
-            int ans = binarySearch(arr,mid+1,r,key);
+            int ans = binarySearch(array, midIndex+1, rightIndex, key);
             return ans;
         }
         else
         {
-            int ans = binarySearch(arr,l,mid-1,key);
+            int ans = binarySearch(array, leftIndex, midIndex-1, key);
             return ans;
         }
     }
     return -1;
 }
+
 int main()
 {
     printf("Enter the size of the array\n");
-    int n;
-    scanf("%d",&n);
-    int arr[n];
+    int size;
+    scanf("%d", &size);
+    int array[size];
     printf("Enter the elements of the array in sorted order\n");
-    for(register int i=0;i<n;i++)
+    for(register int i=0; i<size; i++)
     {
-        scanf("%d",&arr[i]);
+        scanf("%d",&array[i]);
     }
     printf("Enter the element to find\n");
     int key;
-    scanf("%d",&key);
-    int index = binarySearch(arr,0,n,key);
+    scanf("%d", &key);
+    int index = binarySearch(array, 0, size, key);
     
     if(index==-1)
     {
