@@ -1,43 +1,54 @@
 #include <stdio.h>
-int binarysearch(int arr[],int l,int r,int key)
+
+/**
+ * this function contains the code for the iterative binary search
+ * @param array
+ * @param leftIndex
+ * @param rightIndex
+ * @param key
+ * 
+ * @return int
+ **/
+int binarysearch(int array[], int leftIndex, int rightIndex, int key)
 {
-    int index=-1;
-    while(l<=r)
+    int index = -1;
+    while(leftIndex <= rightIndex)
     {
-        int mid=(l+r)/2;
-        if(arr[mid]==key)
+        int midIndex = (leftIndex+rightIndex) / 2;
+        if(array[midIndex] == key)                                      // if element finded at the middle index
         {
-            index=mid;
+            index = midIndex;
             break;
         }
-        if(key<arr[mid])
+        if(key < array[midIndex])                                       // if element to find is less than the middle element
         {
-            r=mid-1;
+            rightIndex = midIndex-1;
         }
         else
         {
-            l=mid+1;
+            leftIndex = midIndex+1;
         }
     }
     return index;
 }
+
 int main()
 {
     printf("Enter the size of the array\n");
-    int n;
-    scanf("%d",&n);
-    int arr[n];
+    int size;
+    scanf("%d", &size);
+    int array[size];
     printf("Enter the elements of array in sorted array\n");
-    for(register int i=0;i<n;i++)
+    for(register int i=0; i<size; i++)
     {
-        scanf("%d",&arr[i]);
+        scanf("%d",&array[i]);
     }
     int key;
     printf("Enter the value to find\n");
-    scanf("%d",&key);
-    int ans = binarysearch(arr,0,n,key);
+    scanf("%d", &key);
+    int ans = binarysearch(array, 0, size, key);
 
-    if(ans==-1)
+    if(ans == -1)
     {
         printf("Not found\n");
     }
