@@ -1,39 +1,38 @@
 #include<iostream>
 using namespace std;
-int main()
-{
-    int n,a[100],x,mid=0,s=0,e=0;
-    cout<<"Enter size of array: ";
-    cin>>n;
-    cout<<"Enter elements of array: \n";
-    for(int i=0; i<n; i++)
+
+//Function to sort the array
+void sort(int arr[],int size){
+   for(int i=0; i<size; i++)
     {
-        cin>>a[i];
-    }
-    for(int i=0; i<n; i++)
-    {
-        for(int j=0; j<n-i; j++)
+        for(int j=0; j<size-i; j++)
         {
-            if(a[j]>a[j+1])
+            if(arr[j]>arr[j+1])
             {
-                int temp = a[j];
-                a[j] = a[j+1];
-                a[j+1] = temp;
+                int temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
             }
         }
     }
+
+    //Displaying the sorted array
     cout<<"Sorted array: "<<endl;
-    for(int i=0; i<n; i++)
+    for(int i=0; i<size; i++)
     {
-        cout<<a[i]<<" "<<endl;
+        cout<<arr[i]<<" "<<endl;
     }
-    e = n-1;
-    cout<<"Enter a no to search: ";
-    cin>>x;
+
+}
+
+//Function to search the element in an array using binary search
+void binary_search(int arr[],int size,int search){
+    int s=0,mid=0,e=0;
+    e=size-1;
     mid = (s+e)/2;
-    while(s<e && a[mid]!=x)
+    while(s<e && arr[mid]!=search)
     {
-        if(x>a[mid])
+        if(search>arr[mid])
         {
             s = mid+1;
         }
@@ -43,13 +42,28 @@ int main()
         }
         mid = (s+e)/2;
     }
-    if(a[mid] == x)
+    if(arr[mid] == search)
     {
-        cout<<"Element "<<a[mid]<<" found at "<<mid+1<<" position"<<endl;
+        cout<<"Element "<<arr[mid]<<" found at "<<mid+1<<" position"<<endl;
     }
     else
     {
         cout<<"Element not found"<<endl;
     }
+}
+int main()
+{
+    int size,arr[100],search,mid=0;
+    cout<<"Enter size of array: ";
+    cin>>size;
+    cout<<"Enter elements of array: \n";
+    for(int i=0; i<size; i++)
+    {
+        cin>>arr[i];
+    }
+    sort(arr,size); //called a sort function
+    cout<<"Enter a no to search: ";
+    cin>>search;
+    binary_search(arr,size,search);//called a binary search function
     return 0;
 }
