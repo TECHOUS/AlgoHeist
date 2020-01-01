@@ -2,25 +2,25 @@
 #include <iostream>
 using namespace std;
 
-// A iterative binary search function. It returns
-// location of x in given array arr[l..r] if present,
+// An iterative binary search function. It returns
+// location of key in given array arr[l..r] if present,
 // otherwise -1
-int binarySearch(int arr[], int l, int r, int x)
+int binarySearch(int array[], int leftIndex, int rightIndex, int key)
 {
-	while (l <= r) {
-		int m = l + (r - l) / 2;
+	while (leftIndex<= r) {
+		int mid = leftIndex+ (rightIndex- l) / 2;
 
-		// Check if x is present at mid
-		if (arr[m] == x)
-			return m;
+		// Check if key is present at mid
+		if (array[mid] == key)
+			return mid;
 
-		// If x greater, ignore left half
-		if (arr[m] < x)
-			l = m + 1;
+		// If keygreater, ignore left half
+		if (array[mid] < key)
+			leftIndex= mid + 1;
 
-		// If x is smaller, ignore right half
+		// If key is smaller, ignore right half
 		else
-			r = m - 1;
+			rightIndex= mid - 1;
 	}
 
 	// if we reach here, then element was
@@ -30,11 +30,11 @@ int binarySearch(int arr[], int l, int r, int x)
 
 int main()
 {
-	int arr[] = { 2, 3, 4, 10, 40 };
-	int x = 10;
-	int n = sizeof(arr) / sizeof(arr[0]);
-	int result = binarySearch(arr, 0, n - 1, x);
+	int array[] = { 2, 3, 4, 10, 40 };
+	int key = 10;
+	int array_size = sizeof(array) / sizeof(array[0]);
+	int result = binarySearch(array, 0, array_size - 1, key);
 	(result == -1) ? cout << "Element is not present in array"
-				: cout << "Element is present at index " << result;
+				: cout << "Element is present at indekey" << result;
 	return 0;
 }
