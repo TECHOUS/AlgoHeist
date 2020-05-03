@@ -15,8 +15,9 @@ void sort(int arr[],int size){
             }
         }
     }
-
+}
     //Displaying the sorted array
+void display(int arr[],int size){
     cout<<"Sorted array: "<<endl;
     for(int i=0; i<size; i++)
     {
@@ -27,20 +28,20 @@ void sort(int arr[],int size){
 
 //Function to search the element in an array using binary search
 void binary_search(int arr[],int size,int search){
-    int s=0,mid=0,e=0;
-    e=size-1;
-    mid = (s+e)/2;
-    while(s<e && arr[mid]!=search)
+    int low=0,mid=0,high=0;
+    high=size-1;
+    mid = (low+high)/2;// finding the middle element
+    while(low<high && arr[mid]!=search)
     {
         if(search>arr[mid])
         {
-            s = mid+1;
+            low = mid+1;
         }
         else
         {
-            e = mid-1;
+            high = mid-1;
         }
-        mid = (s+e)/2;
+        mid = (low+high)/2;
     }
     if(arr[mid] == search)
     {
@@ -62,6 +63,7 @@ int main()
         cin>>arr[i];
     }
     sort(arr,size); //called a sort function
+    display(arr,size); //printing the array
     cout<<"Enter a no to search: ";
     cin>>search;
     binary_search(arr,size,search);//called a binary search function
