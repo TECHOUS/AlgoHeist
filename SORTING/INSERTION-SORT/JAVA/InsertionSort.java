@@ -1,37 +1,37 @@
 import java.util.*;
-public class InsertionSort
+public class insertionSort
 {
     public static void main(String[] args)
     {
-        Scanner in = new Scanner(System.in);
-        int n; //size of the array
-        System.out.println("Enter the size of the array: ");
-        n = in.nextInt();
-        int[] arr = new int[n]; //declared array
-        for(int i=0;i<n;i++)
+        Scanner input = new Scanner(System.in);
+        int N; //size of the array
+        System.out.println("Enter the size of the array");
+        N = input.nextInt();
+        int[] arr = new int[N]; //declaring array
+        for(int i=0;i<N;i++)
         {
-            arr[i] = in.nextInt();
+            arr[i] = input.nextInt();
         }
-        insertion(arr);
+        insertionsort(arr);
+        //printing the array
         System.out.println("The sorted array: ");
         for(int i=0;i<arr.length;i++)
         {
             System.out.print(arr[i]+" ");
         }
         System.out.println();
-        in.close();
+        input.close();
     }
 
-    public static void insertion(int[] array)
+    public static void insertionsort(int[] array)
     {
         for(int i=1;i<array.length;i++)
         {
-            int raw = array[i]; //created a raw element which we insert
+            int raw = array[i];
             int j;
-            for(j=i;j>0 && array[j-1] < raw;j--)
+            for(j=i;j>0 && array[j-1] > raw;j--)
             {
-                //shifting from left to right
-                array[j] = array[j-1];
+                array[j] = array[j-1]; //shifting
             }
             array[j] = raw;
         }

@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * this function contains the logic for recursive binary search
- * 
+ * this function contains the code for the iterative binary search
  * @param array
  * @param leftIndex
  * @param rightIndex
@@ -10,27 +9,27 @@
  * 
  * @return int
  **/
-int binarySearch(int array[], int leftIndex, int rightIndex, int key)
+int binarysearch(int array[], int leftIndex, int rightIndex, int key)
 {
-    if(leftIndex <= rightIndex)
+    int index = -1;
+    while(leftIndex <= rightIndex)
     {
-        int midIndex = (leftIndex + rightIndex) / 2;
-        if(array[midIndex] == key)
+        int midIndex = (leftIndex+rightIndex) / 2;
+        if(array[midIndex] == key)                                      // if element finded at the middle index
         {
-            return midIndex;
+            index = midIndex;
+            break;
         }
-        if(array[midIndex] < key)
+        if(key < array[midIndex])                                       // if element to find is less than the middle element
         {
-            int ans = binarySearch(array, midIndex+1, rightIndex, key);
-            return ans;
+            rightIndex = midIndex-1;
         }
         else
         {
-            int ans = binarySearch(array, leftIndex, midIndex-1, key);
-            return ans;
+            leftIndex = midIndex+1;
         }
     }
-    return -1;
+    return index;
 }
 
 int main()
@@ -39,22 +38,22 @@ int main()
     int size;
     scanf("%d", &size);
     int array[size];
-    printf("Enter the elements of the array in sorted order\n");
+    printf("Enter the elements of array in sorted array\n");
     for(register int i=0; i<size; i++)
     {
         scanf("%d",&array[i]);
     }
-    printf("Enter the element to find\n");
     int key;
+    printf("Enter the value to find\n");
     scanf("%d", &key);
-    int index = binarySearch(array, 0, size, key);
-    
-    if(index==-1)
+    int ans = binarysearch(array, 0, size, key);
+
+    if(ans == -1)
     {
-        printf("Not found!!!\n");
+        printf("Not found\n");
     }
     else
     {
-        printf("Found at %d index\n",index);
+        printf("Element found at %d\n",ans);
     }
 }
