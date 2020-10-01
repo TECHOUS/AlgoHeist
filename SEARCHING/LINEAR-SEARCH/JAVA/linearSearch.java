@@ -5,33 +5,44 @@ public class linearSearch
 	{
 		Scanner input = new Scanner(System.in);    
 		System.out.println("Enter the size of the array");
-		int N = input.nextInt();  //size of the array
-		int[] arr = new int[N];   //declared the array
+		int size = input.nextInt();  							// size of the array
+		int[] array = new int[size];   							// declared the array
+
 		System.out.println("Enter the elements of the array");
-		for(int i=0;i<N;i++)
+		for(int i=0; i<size; i++)
 		{
-			arr[i] = input.nextInt();
+			array[i] = input.nextInt();
 		}
 		System.out.println("Enter the element you want to search");
-		int search = input.nextInt();		//element to search
-		lsearch(arr,N,search);
+		
+		int search = input.nextInt();							// element to search
+		
+		LinearSearch(array, size, search);
+		
 		input.close();
 	}
 	
-	//method for searching element in an array
-	public static void lsearch(int[] arr,int n,int s)
+	/**
+	 * this function contains the main logic of linear search
+	 * 
+	 * @param array
+	 * @param size
+	 * @param search
+	 * 
+	 * @return void
+	 **/
+	public static void LinearSearch(int[] array, int size, int search)
 	{
-		int flag=0;
-		for(int i=0;i<n;i++)
-		{
-			if(s == arr[i])
-			{
-				System.out.println("Element found at index: "+i);
-				flag=1;
+		boolean flag = false;
+		for(int i=0; i<size; i++){
+			if(search == array[i]){
+				flag = true;
 			}
 		}
-		if(flag==0)
-		{
+
+		if(flag){
+			System.out.println("Element Found");
+		}else{
 			System.out.println("Element not found!!!");
 		}
 	}

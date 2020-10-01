@@ -1,55 +1,40 @@
-#include<iostream>
+// C++ program to implement recursive Binary Search
+#include <iostream>
 using namespace std;
+
+// An iterative binary search function. It returns
+// location of key in given array arr[l..r] if present,
+// otherwise -1
+int binarySearch(int array[], int leftIndex, int rightIndex, int key)
+{
+	while (leftIndex<= r) {
+		int mid = leftIndex+ (rightIndex- l) / 2;
+
+		// Check if key is present at mid
+		if (array[mid] == key)
+			return mid;
+
+		// If keygreater, ignore left half
+		if (array[mid] < key)
+			leftIndex= mid + 1;
+
+		// If key is smaller, ignore right half
+		else
+			rightIndex= mid - 1;
+	}
+
+	// if we reach here, then element was
+	// not present
+	return -1;
+}
+
 int main()
 {
-    int n,a[100],x,mid=0,s=0,e=0;
-    cout<<"Enter size of array: ";
-    cin>>n;
-    cout<<"Enter elements of array: \n";
-    for(int i=0; i<n; i++)
-    {
-        cin>>a[i];
-    }
-    for(int i=0; i<n; i++)
-    {
-        for(int j=0; j<n-i; j++)
-        {
-            if(a[j]>a[j+1])
-            {
-                int temp = a[j];
-                a[j] = a[j+1];
-                a[j+1] = temp;
-            }
-        }
-    }
-    cout<<"Sorted array: "<<endl;
-    for(int i=0; i<n; i++)
-    {
-        cout<<a[i]<<" "<<endl;
-    }
-    e = n-1;
-    cout<<"Enter a no to search: ";
-    cin>>x;
-    mid = (s+e)/2;
-    while(s<e && a[mid]!=x)
-    {
-        if(x>a[mid])
-        {
-            s = mid+1;
-        }
-        else
-        {
-            e = mid-1;
-        }
-        mid = (s+e)/2;
-    }
-    if(a[mid] == x)
-    {
-        cout<<"Element "<<a[mid]<<" found at "<<mid+1<<" position"<<endl;
-    }
-    else
-    {
-        cout<<"Element not found"<<endl;
-    }
-    return 0;
+	int array[] = { 2, 3, 4, 10, 40 };
+	int key = 10;
+	int array_size = sizeof(array) / sizeof(array[0]);
+	int result = binarySearch(array, 0, array_size - 1, key);
+	(result == -1) ? cout << "Element is not present in array"
+				: cout << "Element is present at indekey" << result;
+	return 0;
 }
