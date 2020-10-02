@@ -38,6 +38,8 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
       * [Without recursion](SEARCHING/BINARY-SEARCH/C++/BinarySearch.cpp)
     * [JAVA](SEARCHING/BINARY-SEARCH/JAVA/BinarySearch.java)
     * [Python](SEARCHING/BINARY-SEARCH/Python/binarySearch.py)
+    * JavaScript
+      * [With recursion](SEARCHING/BINARY-SEARCH/JAVASCRIPT/BinarySearchWithRecursion.js)
 
 * SORTING
   * BUBBLE-SORT
