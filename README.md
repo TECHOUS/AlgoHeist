@@ -49,6 +49,7 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [C++](SORTING/BUBBLE-SORT/C++/bubblesort.cpp)
     * [JAVA](SORTING/BUBBLE-SORT/JAVA/BubbleSort.java)
     * [PYTHON](SORTING/BUBBLE-SORT/PYTHON/bubble_sort.py)
+    * [Go](SORTING/BUBBLE-SORT/Go/BubbleSort.go)
   * SELECTION SORT
     * C
       * ASCENDING
