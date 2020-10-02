@@ -1,6 +1,6 @@
-//C program that coverts a matrix to Sparse form and find its sum
+//C program that coverts a matrix to Sparse form and find its sum,Transpose
 #include <stdio.h>
-
+#include<stdlib.h>
 //function to read the matrices
 void read(int mat[10][10], int r, int c)
 {
