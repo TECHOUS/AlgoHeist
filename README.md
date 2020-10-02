@@ -81,6 +81,7 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [Python](SORTING/MERGE-SORT/PYTHON/Merge_Sort.py)
   * QUICK-SORT
     * [C++](SORTING/QUICK-SORT/C++/QuickSort.cpp)
+    * [JavaScript](SORTING/QUICK-SORT/JAVASCRIPT/QuickSort.js)
 * STRINGS
   * REVERSE A STRING
     * [C](STRINGS/REVERSE-A-STRING/C/reverse-a-string.c)
