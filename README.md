@@ -122,7 +122,7 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
   * CAESAR-CIPHER
     * [PYTHON](MISC/Caesar-Cipher/Python/caesar-cipher.py)
   * COIN CHANGE PERMUTATION
-    *[PYTHON](MISC/Coin_Change_Permutation/PYTHON/CoinChangePer.py)
+    * [PYTHON](MISC/Coin_Change_Permutation/PYTHON/CoinChangePer.py)
 
 ## LICENSE
 
