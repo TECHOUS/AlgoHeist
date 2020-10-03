@@ -114,9 +114,8 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [C](MISC/Spell-the-number/C/spell_the_number.c)
   * CAESAR-CIPHER
     * [PYTHON](MISC/Caesar-Cipher/Python/caesar-cipher.py)
-* MATRIX
   * IMPLEMENTATION OF THE SPARSE MATRIX
-    * [C](MATRIX/sparse_matrix.c)
+    * [C](MISC/sparse_matrix.c)
 ## LICENSE
 
 [GNU GENERAL PUBLIC LICENSE](LICENSE)
