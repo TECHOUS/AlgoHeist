@@ -11,7 +11,7 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
 * SEARCHING
 * SORTING
 * MISC
-* MATRIX
+
 
 ### SUB-DIRECTORY STRUCTURE
 
