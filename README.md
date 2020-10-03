@@ -110,7 +110,7 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [C++](GRAPH_ALGORITHMS/C++/DFS.cpp)
   * DIJKSTRA ALGORITHM
     * [C++](GRAPH_ALGORITHMS/C++/DIJKSTRA.cpp)
-  * KRUSHAL ALGORITHM
+  * KRUSKAL ALGORITHM
     * [C++](GRAPH_ALGORITHMS/C++/KRUSKAL.cpp)
   * TOPOLOGICAL SORT
     *  [C++](GRAPH_ALGORITHMS/C++/topologicalSort.cpp)
