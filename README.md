@@ -103,6 +103,8 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [C++](STRINGS/KMP/C++/KMP.cpp)
   * Z
     * [C++](STRINGS/Z/C++/Z.cpp)
+  * KPC 
+    * [Python](STRINGS/printKPC/PYTHON/getKPC.ipynb)
 * GRAPHS
   * BREADTH FIRST SEARCH
     * [C++](GRAPH_ALGORITHMS/C++/BFS.cpp)
