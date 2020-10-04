@@ -38,6 +38,8 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
       * [Without recursion](SEARCHING/BINARY-SEARCH/C++/BinarySearch.cpp)
     * [JAVA](SEARCHING/BINARY-SEARCH/JAVA/BinarySearch.java)
     * [Python](SEARCHING/BINARY-SEARCH/Python/binarySearch.py)
+    * JavaScript
+      * [With recursion](SEARCHING/BINARY-SEARCH/JAVASCRIPT/BinarySearchWithRecursion.js)
 
 * SORTING
   * BUBBLE-SORT
@@ -49,6 +51,7 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [C++](SORTING/BUBBLE-SORT/C++/bubblesort.cpp)
     * [JAVA](SORTING/BUBBLE-SORT/JAVA/BubbleSort.java)
     * [PYTHON](SORTING/BUBBLE-SORT/PYTHON/bubble_sort.py)
+    * [Go](SORTING/BUBBLE-SORT/Go/BubbleSort.go)
   * SELECTION SORT
     * C
       * ASCENDING
@@ -79,6 +82,7 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [Python](SORTING/MERGE-SORT/PYTHON/Merge_Sort.py)
   * QUICK-SORT
     * [C++](SORTING/QUICK-SORT/C++/QuickSort.cpp)
+    * [JavaScript](SORTING/QUICK-SORT/JAVASCRIPT/QuickSort.js)
 * STRINGS
   * REVERSE A STRING
     * [C](STRINGS/REVERSE-A-STRING/C/reverse-a-string.c)
@@ -99,6 +103,8 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [C++](STRINGS/KMP/C++/KMP.cpp)
   * Z
     * [C++](STRINGS/Z/C++/Z.cpp)
+  * KPC 
+    * [Python](STRINGS/printKPC/PYTHON/getKPC.ipynb)
 * GRAPHS
   * BREADTH FIRST SEARCH
     * [C++](GRAPH_ALGORITHMS/C++/BFS.cpp)
@@ -106,8 +112,10 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [C++](GRAPH_ALGORITHMS/C++/DFS.cpp)
   * DIJKSTRA ALGORITHM
     * [C++](GRAPH_ALGORITHMS/C++/DIJKSTRA.cpp)
-  * KRUSHAL ALGORITHM
+  * KRUSKAL ALGORITHM
     * [C++](GRAPH_ALGORITHMS/C++/KRUSKAL.cpp)
+  * TOPOLOGICAL SORT
+    *  [C++](GRAPH_ALGORITHMS/C++/topologicalSort.cpp)
 * MISC
   * SPELL THE NUMBER
     * [C](MISC/Spell-the-number/C/spell_the_number.c)
@@ -119,7 +127,9 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [C++](Algorithms/MISC/equillibrium_point_in_array./c++.cpp)
   *  KADANE ALGORITHM
     * [C++](Algorithms/MISC/kandane algo/c++.cpp)
-    
+  * COIN CHANGE PERMUTATION
+    * [PYTHON](MISC/Coin_Change_Permutation/PYTHON/CoinChangePer.py)
+
 ## LICENSE
 
 [GNU GENERAL PUBLIC LICENSE](LICENSE)
