@@ -120,7 +120,7 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
   * CAESAR-CIPHER
     * [PYTHON](MISC/Caesar-Cipher/Python/caesar-cipher.py)
   * LONGEST VALID PARENTHISIS
-    * [JAVA](MISC/Longest Valid Parenthisis/LongestValidParenthesis.java)
+    * [JAVA](MISC/Longest-Valid-Parenthisis/LongestValidParenthesis.java)
 
 ## LICENSE
 
