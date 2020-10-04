@@ -117,7 +117,9 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [C++](Algorithms/MISC/subarray_with_given_sum/c++.cpp)
   *  EQUILLIBRIUM-POINT-IN-AN-ARRAY
     * [C++](Algorithms/MISC/equillibrium_point_in_array./c++.cpp)
-
+  *  KADANE ALGORITHM
+    * [C++](Algorithms/MISC/kandane algo/c++.cpp)
+    
 ## LICENSE
 
 [GNU GENERAL PUBLIC LICENSE](LICENSE)
