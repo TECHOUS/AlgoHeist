@@ -119,6 +119,8 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [C](MISC/Spell-the-number/C/spell_the_number.c)
   * CAESAR-CIPHER
     * [PYTHON](MISC/Caesar-Cipher/Python/caesar-cipher.py)
+  * LONGEST VALID PARENTHISIS
+    * [JAVA](MISC/Longest Valid Parenthisis/LongestValidParenthesis.java)
 
 ## LICENSE
 
