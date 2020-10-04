@@ -103,6 +103,8 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [C++](STRINGS/KMP/C++/KMP.cpp)
   * Z
     * [C++](STRINGS/Z/C++/Z.cpp)
+  * KPC 
+    * [Python](STRINGS/printKPC/PYTHON/getKPC.ipynb)
   * Subsequence 
     * [Python](STRINGS/Subsequence/PYTHON/Subsequence.ipynb)
 * GRAPHS
@@ -112,7 +114,7 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [C++](GRAPH_ALGORITHMS/C++/DFS.cpp)
   * DIJKSTRA ALGORITHM
     * [C++](GRAPH_ALGORITHMS/C++/DIJKSTRA.cpp)
-  * KRUSHAL ALGORITHM
+  * KRUSKAL ALGORITHM
     * [C++](GRAPH_ALGORITHMS/C++/KRUSKAL.cpp)
   * TOPOLOGICAL SORT
     *  [C++](GRAPH_ALGORITHMS/C++/topologicalSort.cpp)
@@ -121,6 +123,8 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [C](MISC/Spell-the-number/C/spell_the_number.c)
   * CAESAR-CIPHER
     * [PYTHON](MISC/Caesar-Cipher/Python/caesar-cipher.py)
+  * COIN CHANGE PERMUTATION
+    * [PYTHON](MISC/Coin_Change_Permutation/PYTHON/CoinChangePer.py)
 
 ## LICENSE
 
