@@ -121,8 +121,11 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [C](MISC/Spell-the-number/C/spell_the_number.c)
   * CAESAR-CIPHER
     * [PYTHON](MISC/Caesar-Cipher/Python/caesar-cipher.py)
+  * COIN CHANGE PERMUTATION
+    * [PYTHON](MISC/Coin_Change_Permutation/PYTHON/CoinChangePer.py)
   * HALF PYRAMID
     * [PYTHON](MISC/HALF_reverse_PYRAMID.py)
+
 
 ## LICENSE
 
