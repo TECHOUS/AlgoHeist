@@ -126,6 +126,8 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [PYTHON](MISC/Caesar-Cipher/Python/caesar-cipher.py)
   * COIN CHANGE PERMUTATION
     * [PYTHON](MISC/Coin_Change_Permutation/PYTHON/CoinChangePer.py)
+  * HALF PYRAMID
+    * [PYTHON](MISC/HALF_reverse_PYRAMID.py)
   * MAXIMUM NON ADJACENT SUM
 	  * [PYTHON](MISC/Max_Sum/PYTHON/MaxNonAdjacentSum.py)
   * SUBARRAY-WITH-GIVEN-SUM
@@ -136,6 +138,7 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [C++](Algorithms/MISC/kandane algo/c++.cpp)
   * IMPLEMENTATION OF THE SPARSE MATRIX
 	  * [C](MISC/sparse_matrix.c)
+
 
 ## LICENSE
 
