@@ -124,10 +124,16 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [C](MISC/Spell-the-number/C/spell_the_number.c)
   * CAESAR-CIPHER
     * [PYTHON](MISC/Caesar-Cipher/Python/caesar-cipher.py)
-  * IMPLEMENTATION OF THE SPARSE MATRIX
-    * [C](MISC/sparse_matrix.c)
   * COIN CHANGE PERMUTATION
     * [PYTHON](MISC/Coin_Change_Permutation/PYTHON/CoinChangePer.py)
+  * SUBARRAY-WITH-GIVEN-SUM
+    * [C++](Algorithms/MISC/subarray_with_given_sum/c++.cpp)
+  * EQUILLIBRIUM-POINT-IN-AN-ARRAY
+    * [C++](Algorithms/MISC/equillibrium_point_in_array./c++.cpp)
+  * KADANE ALGORITHM
+    * [C++](Algorithms/MISC/kandane algo/c++.cpp)
+  * IMPLEMENTATION OF THE SPARSE MATRIX
+    * [C](MISC/sparse_matrix.c)
 
 ## LICENSE
 
