@@ -125,6 +125,8 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [PYTHON](MISC/Caesar-Cipher/Python/caesar-cipher.py)
   * COIN CHANGE PERMUTATION
     * [PYTHON](MISC/Coin_Change_Permutation/PYTHON/CoinChangePer.py)
+  * FIBONACCI_XOR
+    * [C++](MISC/Fibonacci_xor/C++/fibonacci_xor.cpp)
 
 ## LICENSE
 

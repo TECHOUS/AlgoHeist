@@ -1,5 +1,5 @@
 //Fibonacci XOR
-/*You are given three integers a, b, and n, calculate f(n), where f(n) is the xor of last two numbers
+/*You are given three integers firstNumber, secondNumber, and n, calculate f(n), where f(n) is the xor of last two numbers
 i.e, f(n) = f(n-1)?f(n-2), where ? is xor operation.
 */
 
@@ -8,13 +8,13 @@ i.e, f(n) = f(n-1)?f(n-2), where ? is xor operation.
 using namespace std;
 int main()
 {
-  int a,b,n;
+  int firstNumber,secondNumber,n;
     
-    cin>>a>>b>>n;
+    cin>>firstNumber>>secondNumber>>n;
     int rem=n%3;
-    if(rem==0) cout<<a<<endl;
-    else if(rem==1) cout<<b<<endl;
-    else cout<<(a^b)<<endl;
+    if(rem==0) cout<<firstNumber<<endl;
+    else if(rem==1) cout<<secondNumber<<endl;
+    else cout<<(firstNumber^secondNumber)<<endl;
   
   return 0;
 }
