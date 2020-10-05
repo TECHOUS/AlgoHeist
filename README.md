@@ -12,6 +12,7 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
 * SORTING
 * MISC
 
+
 ### SUB-DIRECTORY STRUCTURE
 
 * Algorithm Name
@@ -105,6 +106,8 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [C++](STRINGS/Z/C++/Z.cpp)
   * KPC 
     * [Python](STRINGS/printKPC/PYTHON/getKPC.ipynb)
+  * Subsequence 
+    * [Python](STRINGS/Subsequence/PYTHON/Subsequence.ipynb)
 * GRAPHS
   * BREADTH FIRST SEARCH
     * [C++](GRAPH_ALGORITHMS/C++/BFS.cpp)
@@ -125,6 +128,16 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [PYTHON](MISC/Coin_Change_Permutation/PYTHON/CoinChangePer.py)
   * HALF PYRAMID
     * [PYTHON](MISC/HALF_reverse_PYRAMID.py)
+  * MAXIMUM NON ADJACENT SUM
+	  * [PYTHON](MISC/Max_Sum/PYTHON/MaxNonAdjacentSum.py)
+  * SUBARRAY-WITH-GIVEN-SUM
+	  * [C++](Algorithms/MISC/subarray_with_given_sum/c++.cpp)
+  * EQUILLIBRIUM-POINT-IN-AN-ARRAY
+    * [C++](Algorithms/MISC/equillibrium_point_in_array./c++.cpp)
+  * KADANE ALGORITHM
+    * [C++](Algorithms/MISC/kandane algo/c++.cpp)
+  * IMPLEMENTATION OF THE SPARSE MATRIX
+	  * [C](MISC/sparse_matrix.c)
 
 
 ## LICENSE
