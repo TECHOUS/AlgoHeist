@@ -66,6 +66,9 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
         * [USING MAX ELEMENT](SORTING/SELECTION-SORT/JAVA/SelectionSort.java)
       * DESCENDING
         * [USING MIN ELEMENT](SORTING/SELECTION-SORT/JAVA/selectionsort.java)
+    * GO
+        * [Selection Sort](SORTING/SELECTION-SORT/Go/SelectionSort.go)
+
   * INSERTION-SORT
     * [C](SORTING/INSERTION-SORT/C/insertionsort.c)
     * JAVA
