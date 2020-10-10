@@ -127,10 +127,12 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [C](MISC/Spell-the-number/C/spell_the_number.c)
   * CAESAR-CIPHER
     * [PYTHON](MISC/Caesar-Cipher/Python/caesar-cipher.py)
- * Rhombus Pattern
+  * Rhombus Pattern
     * [PYTHON](MISC/rhombus_patt.py)
- * COIN CHANGE PERMUTATION
+  * COIN CHANGE PERMUTATION
     * [PYTHON](MISC/Coin_Change_Permutation/PYTHON/CoinChangePer.py)
+  * FIBONACCI_XOR
+    * [C++](MISC/Fibonacci_xor/C++/fibonacci_xor.cpp)
   * HALF PYRAMID
     * [PYTHON](MISC/HALF_reverse_PYRAMID.py)
   * MAXIMUM NON ADJACENT SUM
@@ -143,8 +145,7 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [C++](Algorithms/MISC/kandane algo/c++.cpp)
   * IMPLEMENTATION OF THE SPARSE MATRIX
 	  * [C](MISC/sparse_matrix.c)
-
-
+    
 ## LICENSE
 
 [GNU GENERAL PUBLIC LICENSE](LICENSE)
