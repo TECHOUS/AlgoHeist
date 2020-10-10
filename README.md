@@ -12,6 +12,7 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
 * SORTING
 * MISC
 
+
 ### SUB-DIRECTORY STRUCTURE
 
 * Algorithm Name
@@ -38,6 +39,8 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
       * [Without recursion](SEARCHING/BINARY-SEARCH/C++/BinarySearch.cpp)
     * [JAVA](SEARCHING/BINARY-SEARCH/JAVA/BinarySearch.java)
     * [Python](SEARCHING/BINARY-SEARCH/Python/binarySearch.py)
+    * JavaScript
+      * [With recursion](SEARCHING/BINARY-SEARCH/JAVASCRIPT/BinarySearchWithRecursion.js)
 
 * SORTING
   * BUBBLE-SORT
@@ -49,6 +52,7 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [C++](SORTING/BUBBLE-SORT/C++/bubblesort.cpp)
     * [JAVA](SORTING/BUBBLE-SORT/JAVA/BubbleSort.java)
     * [PYTHON](SORTING/BUBBLE-SORT/PYTHON/bubble_sort.py)
+    * [Go](SORTING/BUBBLE-SORT/Go/BubbleSort.go)
   * SELECTION SORT
     * C
       * ASCENDING
@@ -62,6 +66,9 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
         * [USING MAX ELEMENT](SORTING/SELECTION-SORT/JAVA/SelectionSort.java)
       * DESCENDING
         * [USING MIN ELEMENT](SORTING/SELECTION-SORT/JAVA/selectionsort.java)
+    * GO
+        * [Selection Sort](SORTING/SELECTION-SORT/Go/SelectionSort.go)
+
   * INSERTION-SORT
     * [C](SORTING/INSERTION-SORT/C/insertionsort.c)
     * JAVA
@@ -79,6 +86,7 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [Python](SORTING/MERGE-SORT/PYTHON/Merge_Sort.py)
   * QUICK-SORT
     * [C++](SORTING/QUICK-SORT/C++/QuickSort.cpp)
+    * [JavaScript](SORTING/QUICK-SORT/JAVASCRIPT/QuickSort.js)
 * STRINGS
   * REVERSE A STRING
     * [C](STRINGS/REVERSE-A-STRING/C/reverse-a-string.c)
@@ -99,6 +107,10 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [C++](STRINGS/KMP/C++/KMP.cpp)
   * Z
     * [C++](STRINGS/Z/C++/Z.cpp)
+  * KPC 
+    * [Python](STRINGS/printKPC/PYTHON/getKPC.ipynb)
+  * Subsequence 
+    * [Python](STRINGS/Subsequence/PYTHON/Subsequence.ipynb)
 * GRAPHS
   * BREADTH FIRST SEARCH
     * [C++](GRAPH_ALGORITHMS/C++/BFS.cpp)
@@ -106,14 +118,36 @@ For contribution you can see our [guidelines](CONTRIBUTING.md)
     * [C++](GRAPH_ALGORITHMS/C++/DFS.cpp)
   * DIJKSTRA ALGORITHM
     * [C++](GRAPH_ALGORITHMS/C++/DIJKSTRA.cpp)
-  * KRUSHAL ALGORITHM
+  * KRUSKAL ALGORITHM
     * [C++](GRAPH_ALGORITHMS/C++/KRUSKAL.cpp)
+  * TOPOLOGICAL SORT
+    *  [C++](GRAPH_ALGORITHMS/C++/topologicalSort.cpp)
 * MISC
   * SPELL THE NUMBER
     * [C](MISC/Spell-the-number/C/spell_the_number.c)
   * CAESAR-CIPHER
     * [PYTHON](MISC/Caesar-Cipher/Python/caesar-cipher.py)
-
+  * Rhombus Pattern
+    * [PYTHON](MISC/rhombus_patt.py)
+  * COIN CHANGE PERMUTATION
+    * [PYTHON](MISC/Coin_Change_Permutation/PYTHON/CoinChangePer.py)
+  * FIBONACCI_XOR
+    * [C++](MISC/Fibonacci_xor/C++/fibonacci_xor.cpp)
+  * HALF PYRAMID
+    * [PYTHON](MISC/HALF_reverse_PYRAMID.py)
+  * MAXIMUM NON ADJACENT SUM
+	  * [PYTHON](MISC/Max_Sum/PYTHON/MaxNonAdjacentSum.py)
+  * SUBARRAY-WITH-GIVEN-SUM
+	  * [C++](Algorithms/MISC/subarray_with_given_sum/c++.cpp)
+  * EQUILLIBRIUM-POINT-IN-AN-ARRAY
+    * [C++](Algorithms/MISC/equillibrium_point_in_array./c++.cpp)
+  * KADANE ALGORITHM
+    * [C++](Algorithms/MISC/kandane algo/c++.cpp)
+  * IMPLEMENTATION OF THE SPARSE MATRIX
+	  * [C](MISC/sparse_matrix.c)
+  * PRIME FACTORIZATION OF A NUMBER
+    * [C++](Algorithms/MISC/Prime_Factorization/prime_factorization.cpp)
+    
 ## LICENSE
 
 [GNU GENERAL PUBLIC LICENSE](LICENSE)
