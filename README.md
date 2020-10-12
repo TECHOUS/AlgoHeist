@@ -194,7 +194,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
 * EQUILLIBRIUM-POINT-IN-AN-ARRAY
   * [C++](Algorithms/MISC/equillibrium_point_in_array./c++.cpp)
 * KADANE ALGORITHM
-  * [C++](Algorithms/MISC/kandane algo/c++.cpp)
+  * [C++](Algorithms/MISC/kadane algo/)
 * IMPLEMENTATION OF THE SPARSE MATRIX
   * [C](MISC/sparse_matrix.c)
 * PRIME FACTORIZATION
