@@ -1,0 +1,5 @@
+# IGNORE FILES FOR C++
+
+*.out
+*.o
+*.exe

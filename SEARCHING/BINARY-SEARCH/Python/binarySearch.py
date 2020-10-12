@@ -1,27 +1,27 @@
-def binarySearch(arr, find):
+def binarySearch(array, findElement):
 
-    s = 0
-    e = len(arr)
+    startIndex = 0
+    endIndex = len(array)
 
-    while( s < e ):
+    while( startIndex < endIndex ):
 
-        mid = (s+e)//2
+        midIndex = (startIndex+endIndex)//2
 
-        if arr[mid] == find :
-            return mid
-        elif find < arr[mid] :
-            e = mid
+        if array[midIndex] == findElement :
+            return midIndex
+        elif findElement < array[midIndex] :
+            endIndex = midIndex
         else:
-            s = mid+1
+            startIndex = midIndex+1
 
     return -1
 
-arr = list(map(int, input("Enter sorted values in list (space separated) = ").split()))
-find = int(input("Enter value to find = "))
+array = list(map(int, input("Enter sorted values in list (space separated) = ").split()))
+findElement = int(input("Enter value to find = "))
 
-loc = binarySearch(arr, find)
+index = binarySearch(array, findElement)
 
-if loc == -1 :
+if index == -1 :
     print("value not found")
 else:
-    print("value found at index", loc)
+    print("value found at index", index)
