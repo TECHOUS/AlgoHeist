@@ -1,6 +1,6 @@
 # Algorithms
 
-A repository for algorithms in different languages , contribute as much as you can !!!
+A repository for algorithms in different languages , contribute as much as you can !!! 
 
 ## Contributing Guidelines
 
