@@ -197,7 +197,8 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
   * [C++](Algorithms/MISC/kandane algo/c++.cpp)
 * IMPLEMENTATION OF THE SPARSE MATRIX
   * [C](MISC/sparse_matrix.c)
-
+* FACTORIAL OF A NUMBER USING RECURSION
+  * [JAVA] (MISC/FactorialUsingRecursion.java)
 ***
 
 ## LICENSE
