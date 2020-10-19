@@ -22,7 +22,7 @@ PRs count if:
       * The PR has been approved
 
     )
-  
+
   )
 
 [**Source**](https://hacktoberfest.digitalocean.com/hacktoberfest-update)
@@ -68,7 +68,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
   * [JAVA](SEARCHING/LINEAR-SEARCH/JAVA/linearSearch.java)
   * [Python](SEARCHING/LINEAR-SEARCH/Python/linearSearch.py)
   * [JavaScript](SEARCHING/LINEAR-SEARCH/JS/LinearSearch.js)
-  
+
 * BINARY SEARCH
   * C
     * [With recursion](SEARCHING/BINARY-SEARCH/C/binarySearch.c)
@@ -127,6 +127,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
 * QUICK-SORT
   * [C++](SORTING/QUICK-SORT/C++/QuickSort.cpp)
   * [JavaScript](SORTING/QUICK-SORT/JAVASCRIPT/QuickSort.js)
+  * [Python](SORTING/QUICK-SORT/Python/animated_quick_sort.py)
 
 ***
 
@@ -159,7 +160,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
 ***
 
 ### GRAPHS
-  
+
 * BREADTH FIRST SEARCH
   * [C++](GRAPH_ALGORITHMS/C++/BFS.cpp)
 * DEPTH FIRST SEARCH
@@ -194,11 +195,18 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
 * EQUILLIBRIUM-POINT-IN-AN-ARRAY
   * [C++](Algorithms/MISC/equillibrium_point_in_array./c++.cpp)
 * KADANE ALGORITHM
-  * [C++](Algorithms/MISC/kandane algo/c++.cpp)
+  * [C++](Algorithms/MISC/kadane algo/)
 * IMPLEMENTATION OF THE SPARSE MATRIX
   * [C](MISC/sparse_matrix.c)
+
 * FACTORIAL OF A NUMBER USING RECURSION
   * [JAVA] (MISC/FactorialUsingRecursion.java)
+
+* PRIME FACTORIZATION
+  * [C++](Algorithms/MISC/Prime_Factorization/prime_factorization.cpp)
+
+
+
 ***
 
 ## LICENSE
