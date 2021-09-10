@@ -1,14 +1,14 @@
-# Algorithms
+# AlgoHeist
 
-A repository for algorithms in different languages , contribute as much as you can !!!
+A repository to learn Algorithms via contributing in different languages, contribute as much as you can !!!
 
-## Contributing Guidelines
+## Contributing Guidelines (Updated for 2021)
 
-For contribution you can see our [guidelines](CONTRIBUTING.md)
+For contributions checkout [new guidelines](CONTRIBUTING.md)
 
 ***
 
-### **Hacktober Fest 20 Updates**
+### **Hacktober Fest 21 Updates**
 
 PRs count if:
 
@@ -25,11 +25,7 @@ PRs count if:
 
   )
 
-[**Source**](https://hacktoberfest.digitalocean.com/hacktoberfest-update)
-
-As a part of this update your PRs will be marked as `hacktoberfest-accepted` label before merging and don't get shocked PRs opened in this repository we will be counted in the Hacktober Fest 20.
-
-Also we will soon be launching the application to check your PRs for the Hacktober Fest20
+*As a part of this update your PRs will be marked as `hacktoberfest-accepted` label before merging and don't get shocked PRs opened in this repository will be counted in the Hacktober Fest 21.*
 
 Happy Hacking !
 
@@ -191,21 +187,17 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
 * MAXIMUM NON ADJACENT SUM
   * [PYTHON](MISC/Max_Sum/PYTHON/MaxNonAdjacentSum.py)
 * SUBARRAY-WITH-GIVEN-SUM
-  * [C++](Algorithms/MISC/subarray_with_given_sum/c++.cpp)
+  * [C++](MISC/subarray_with_given_sum/c++.cpp)
 * EQUILLIBRIUM-POINT-IN-AN-ARRAY
-  * [C++](Algorithms/MISC/equillibrium_point_in_array./c++.cpp)
+  * [C++](MISC/equillibrium_point_in_array/c++.cpp)
 * KADANE ALGORITHM
-  * [C++](Algorithms/MISC/kadane algo/)
+  * [C++](MISC/Kadane_Algorithm/C++/kadane.cpp)
 * IMPLEMENTATION OF THE SPARSE MATRIX
   * [C](MISC/sparse_matrix.c)
-
 * FACTORIAL OF A NUMBER USING RECURSION
   * [JAVA] (MISC/FactorialUsingRecursion.java)
-
 * PRIME FACTORIZATION
-  * [C++](Algorithms/MISC/Prime_Factorization/prime_factorization.cpp)
-
-
+  * [C++](MISC/prime_factorization/prime_factorization.cpp)
 
 ***
 
@@ -213,4 +205,4 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
 
 [GNU GENERAL PUBLIC LICENSE](LICENSE)
 
-:copyright: TECHOUS 2020
+:copyright: TECHOUS 2019-21

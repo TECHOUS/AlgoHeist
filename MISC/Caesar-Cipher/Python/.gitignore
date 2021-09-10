@@ -1,5 +1,0 @@
-# IGNORE FILES FOR PYTHON
-
-*.python-version
-*.ipynb_checkpoints
-*$py.class

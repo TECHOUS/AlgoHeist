@@ -1,17 +1,13 @@
 # CONTRIBUTION
 
-* Please help us by making a star on our repository.
+Please help us by making a **star** on our repository.
 
-## HACKTOBER FEST (In October)
+## HACKTOBER FEST 21 Guidelines (In October)
 
 For contributing in October make sure first you read all these guidelines given below:
 
 * Firstly read the README where we have all the algorithms added to this repository. Then you can decide yours which is not present.
-* After making that decision check the [**Issue Templates**](https://github.com/TechOUs/Algorithms/issues/new/choose) and create the issue with *HacktoberFest< YEAR >* template. Then we can comment on the issue with the folder details where you can add your **Algorithm**.
 
-![issue templates](.github/images/image.png)
-
-* After creating the issue wait for the our reply then you can send us Pull Request.
 * Wait for the response from our side and your PR and Issue will be linked by the maintainer.
 * Also as per the new guidelines the Pull Request will first be approved then it will be marked at **hacktoberfest-accepted** label and then it will be merged.
 
