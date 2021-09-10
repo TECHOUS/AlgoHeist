@@ -2,9 +2,13 @@
 
 A repository to learn Algorithms via contributing in different languages, contribute as much as you can !!!
 
+**Contribute via Algorithms to win the Heist (i.e winning HacktoberFest Tee)**
+
+![Algorithm image](.github/images/algo.png)
+
 ## Contributing Guidelines (Updated for 2021)
 
-For contributions checkout [new guidelines](CONTRIBUTING.md)
+For contributions checkout [new updated guidelines](CONTRIBUTING.md)
 
 ***
 
