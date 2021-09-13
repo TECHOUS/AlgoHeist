@@ -4,7 +4,7 @@
  *  --STABLE SORT
  **/
 import java.util.*;
-public class ascendingBubbleSort
+public class ascBubbleSort
 {
     public static void main(String[] args)
     {

@@ -2,7 +2,7 @@
 //using max element
 import java.util.*;
 
-public class ascendingSelectionSort
+public class ascSelectionSort
 {
     public static void main(String[] args)
     {

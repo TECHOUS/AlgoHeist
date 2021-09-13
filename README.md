@@ -2,9 +2,18 @@
 
 A repository to learn Algorithms via contributing in different languages, contribute as much as you can !!!
 
+![GitHub closed pull requests by-label](https://img.shields.io/github/issues-pr-closed/TECHOUS/AlgoHeist/HacktoberFest21?style=for-the-badge&color=cyan)
+![GitHub pull requests by-label](https://img.shields.io/github/issues-pr/TECHOUS/AlgoHeist/HacktoberFest21?color=red&style=for-the-badge)
+![GitHub closed pull requests by-label](https://img.shields.io/github/issues-pr-closed/TECHOUS/AlgoHeist/HacktoberFest20?color=lightgreen&style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/TECHOUS/AlgoHeist?style=for-the-badge&color=yellow)
+![GitHub top language](https://img.shields.io/github/languages/top/TECHOUS/AlgoHeist?style=for-the-badge&color=pink)
+![Lines of code](https://img.shields.io/tokei/lines/github/TECHOUS/AlgoHeist?style=for-the-badge&color=magenta)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/TECHOUS/AlgoHeist?style=for-the-badge)
+
+
 **Contribute via Algorithms to win the Heist (i.e winning HacktoberFest Tee)**
 
-![Algorithm image](.github/images/algo.png)
+![Algorithm Image](.github/images/algo.png)
 
 ## Contributing Guidelines (Updated for 2021)
 
@@ -39,174 +48,149 @@ Happy Hacking !
 
 We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_CONDUCT.md).
 
-## DIRECTORY STRUCTURE
-
-* SEARCHING
-* SORTING
-* GRAPH_ALGORITHMS
-* STRINGS
-* MISC
-
-### SUB-DIRECTORY STRUCTURE
-
-* Algorithm Name
-  * Language Name
-    * Code with Extension
-    * .gitignore
-
-## INDEX
+## Index
 
 ***
 
-### SEARCHING
+### graphs
 
-* LINEAR-SEARCH
-  * C
-    * [Iterative](SEARCHING/LINEAR-SEARCH/C/LinearSearch.c)
-    * [Recursive](SEARCHING/LINEAR-SEARCH/C/recurLinearSearch.c)
-  * [C++](SEARCHING/LINEAR-SEARCH/C++/linearSearch.cpp)
-  * [JAVA](SEARCHING/LINEAR-SEARCH/JAVA/linearSearch.java)
-  * [Python](SEARCHING/LINEAR-SEARCH/Python/linearSearch.py)
-  * [JavaScript](SEARCHING/LINEAR-SEARCH/JS/LinearSearch.js)
-
-* BINARY SEARCH
-  * C
-    * [With recursion](SEARCHING/BINARY-SEARCH/C/binarySearch.c)
-    * [Without recursion](SEARCHING/BINARY-SEARCH/C/binarysearch.c)
-  * C++
-    * [Without recursion](SEARCHING/BINARY-SEARCH/C++/BinarySearch.cpp)
-  * [JAVA](SEARCHING/BINARY-SEARCH/JAVA/BinarySearch.java)
-  * [Python](SEARCHING/BINARY-SEARCH/Python/binarySearch.py)
-  * JavaScript
-    * [With recursion](SEARCHING/BINARY-SEARCH/JAVASCRIPT/BinarySearchWithRecursion.js)
+* Breadth First Search
+  * [C++](graphs/breadth_first_search/breadthFirstSearch.cpp)
+* Depth First Search
+  * [C++](graphs/depth_first_search/depthFirstSearch.cpp)
+* Dijkstra Algo
+  * [C++](graphs/dijkstra/dijkstra.cpp)
+* Krushal Algo
+  * [C++](graphs/krushal/krushal.cpp)
+* Topological Sort
+  * [C++](graphs/topological_sort/topologicalSort.cpp)
 
 ***
 
-### SORTING
+### misc
 
-* BUBBLE-SORT
-  * [C]
-    * [ASCENDING AND STABLE](SORTING/BUBBLE-SORT/C/bubblesort.c)
-    * [DESCENDING AND STABLE](SORTING/BUBBLE-SORT/C/bubble.c)
-    * [ASCENDING AND UNSTABLE](SORTING/BUBBLE-SORT/C/ascendunbubble.c)
-    * [DESCENDING AND UNSTABLE](SORTING/BUBBLE-SORT/C/descendunbubble.c)
-  * [C++](SORTING/BUBBLE-SORT/C++/bubblesort.cpp)
-  * [JAVA](SORTING/BUBBLE-SORT/JAVA/BubbleSort.java)
-  * [PYTHON](SORTING/BUBBLE-SORT/PYTHON/bubble_sort.py)
-  * [Go](SORTING/BUBBLE-SORT/Go/BubbleSort.go)
-* SELECTION SORT
-  * C
-    * ASCENDING
-      * [USING MAX ELEMENT](SORTING/SELECTION-SORT/C/selection.c)
-      * [USING MIN ELEMENT](SORTING/SELECTION-SORT/C/selectionsort.c)
-    * DESCENDING
-      * [USING MAX ELEMENT](SORTING/SELECTION-SORT/C/maxselection.c)
-      * [USING MIN ELEMENT](SORTING/SELECTION-SORT/C/minselection.c)
-  * JAVA
-    * ASCENDING
-      * [USING MAX ELEMENT](SORTING/SELECTION-SORT/JAVA/SelectionSort.java)
-    * DESCENDING
-      * [USING MIN ELEMENT](SORTING/SELECTION-SORT/JAVA/selectionsort.java)
-  * GO
-    * [Selection Sort](SORTING/SELECTION-SORT/Go/SelectionSort.go)
-* INSERTION-SORT
-  * [C](SORTING/INSERTION-SORT/C/insertionsort.c)
-  * JAVA
-    * ascending
-      * [shifting bigger to right](SORTING/INSERTION-SORT/JAVA/insertionSort.java)
-    * descending
-      * [shifting smaller to right](SORTING/INSERTION-SORT/JAVA/InsertionSort.java)
-* SHELL-SORT
-  * JAVA
-    * [ASCENDING](SORTING/SHELL-SORT/JAVA/ShellSort.java)
-    * [DESCENDING](SORTING/SHELL-SORT/JAVA/shellSort.java)
-* HEAP-SORT
-  * [C++](SORTING/HEAP-SORT/C++/Heap_Sort.cpp)
-* MERGE-SORT
-  * [Python](SORTING/MERGE-SORT/PYTHON/Merge_Sort.py)
-* QUICK-SORT
-  * [C++](SORTING/QUICK-SORT/C++/QuickSort.cpp)
-  * [JavaScript](SORTING/QUICK-SORT/JAVASCRIPT/QuickSort.js)
-  * [Python](SORTING/QUICK-SORT/Python/animated_quick_sort.py)
+* Caesar Cipher
+  * [Python](misc/caesar_cipher/caesarCipher.py)
+* Closest Pair Problem
+  * [C++](misc/closest_pair_problem/closestPair.cpp)  
+* Coin Change Permutation
+  * [Python](misc/coin_change_permutation/coinChangePer.py)
+* Equillibrium Point In Array
+  * [C++](misc/equillibrium_point_in_array/equillibriumPoint.cpp)
+* Fibonacci XOR
+  * [C++](misc/fibonacci_xor/fibonacciXor.cpp)
+* Kadane Algorithm
+  * [C++](misc/kadane_algorithm/kadane.cpp)
+* Maximum Non Adjacent Sum
+  * [Python](misc/maximum_non_adjacent_sum/maxNonAdjacentSum.py)
+* Prime Factorization
+  * [C++](misc/prime_factorization/primeFactorization.cpp)
+* Spell The Number
+  * [C](misc/spell_the_number/spellTheNumber.c)
+* Subarray with Given Sum
+  * [C++](misc/subarray_with_given_sum/subarrayWithGivenSum.cpp)
 
 ***
 
-### STRINGS
+### searching
 
-* REVERSE A STRING
-  * [C](STRINGS/REVERSE-A-STRING/C/reverse-a-string.c)
-  * [C++](STRINGS/REVERSE-A-STRING/C++/Reverse_String.cpp)
-  * [JAVA](STRINGS/REVERSE-A-STRING/JAVA/reverseString.java)
-  * [PYTHON](STRINGS/REVERSE-A-STRING/PYTHON/reverseString.py)
-* Pallindrome
-  * [C](STRINGS/Pallindrome/C/Pallindrome.c)
-  * [C++](STRINGS/Pallindrome/C++/Pallindrome.cpp)
-  * [JAVA](STRINGS/Pallindrome/JAVA/Pallindrome.java)
-  * [Python](STRINGS/Pallindrome/Python/Pallindrome.py)
+* Binary Search
+  * Iterative
+    * [C](searching/binary_search/iterativeBinarySearch.c)
+    * [C++](searching/binary_search/iterativeBinarySearch.cpp)
+    * [Java](searching/binary_search/binarySearch.java)
+    * [Python](searching/binary_search/binarySearch.py)
+  * Recursive
+    * [C](searching/binary_search/recursiveBinarySearch.c)
+    * [JavaScript](searching/binary_search/recursiveBinarySearch.js)
+
+* Linear Search
+  * Iterative
+    * [C](searching/linear_search/iterativeLinearSearch.c)
+    * [C++](searching/linear_search/linearSearch.cpp)
+    * [Java](searching/linear_search/linearSearch.java)
+    * [JavaScript](searching/linear_search/linearSearch.js)
+  * Recursive
+    * [C](searching/linear_search/recursiveLinearSearch.c)
+
+***
+
+### sorting
+
+* Bubble Sort
+  * Ascending
+    * [C - Stable](sorting/bubble_sort/ascStableBubbleSort.c)
+    * [C - Unstable](sorting/bubble_sort/ascUnstableBubbleSort.c)
+    * [C++](sorting/bubble_sort/bubbleSort.cpp)
+    * [Java](sorting/bubble_sort/ascBubbleSort.java)
+    * [Python](sorting/bubble_sort/ascBubbleSort.py)
+    * [Go](sorting/bubble_sort/bubbleSort.go)
+  * Descending
+    * [C - Stable](sorting/bubble_sort/descStableBubbleSort.c)
+    * [C - Unstable](sorting/bubble_sort/descUnstableBubbleSort.c)
+* Heap Sort
+  * [C++](sorting/heap_sort/heapSort.cpp)
+* Insertion Sort
+  * Ascending
+    * [Java - shifting bigger to right](sorting/insertion_sort/ascInsertionSort.java)
+    * [C](sorting/insertion_sort/ascInsertionSort.c)
+  * Descending
+    * [Java - shifting smaller to right](sorting/insertion_sort/descInsertionSort.java)
+* Merge Sort
+  * [Python](sorting/merge_sort/mergeSort.py)
+* Quick Sort
+  * [C++](sorting/quick_sort/quickSort.cpp)
+  * [JavaScript](sorting/quick_sort/quickSort.js)
+  * [Python](sorting/quick_sort/animatedQuickSort.py)
+* Radix Sort
+  * [C++](sorting/radix_sort/radixSort.cpp)
+* Selection Sort
+  * Ascending
+    * [C - using max element](sorting/selection_sort/ascSelectionSortWithMax.c)
+    * [C - using min element](sorting/selection_sort/ascSelectionSortWithMin.c)
+    * [Java - using max element](sorting/selection_sort/ascSelectionSort.java)
+    * [Go - using min element](sorting/selection_sort/selectionSort.go)
+  * Descending
+    * [C - using max element](sorting/selection_sort/descSelectionSortUsingMax.c)
+    * [C - using min element](sorting/selection_sort/descSelectionSortUsingMin.c)
+    * [Java - using min element](sorting/selection_sort/descSelectionSort.java)
+* Shell Sort
+  * Ascending
+    * [Java](sorting/shell_sort/ascShellSort.java)
+  * Descending
+    * [Java](sorting/shell_sort/descShellSort.java)
+
+***
+
+### strings
+
 * Anagram
-  * [C](STRINGS/Anagram/C/Anagram.c)
-  * [C++](STRINGS/Anagram/C++/Anagram.cpp)
-  * [JAVA](STRINGS/Anagram/JAVA/Anagram.java)
-  * [Python](STRINGS/Anagram/PYTHON/Anagram.py)
-* KMP
-  * [C++](STRINGS/KMP/C++/KMP.cpp)
-* Z
-  * [C++](STRINGS/Z/C++/Z.cpp)
-* KPC
-  * [Python](STRINGS/printKPC/PYTHON/getKPC.ipynb)
+  * [C](strings/anagram/anagram.c)
+  * [C++](strings/anagram/anagram.cpp)
+  * [Java](strings/anagram/anagram.java)
+  * [Python](strings/anagram/anagram.py)
+* Pallindrome
+  * [C](strings/pallindrome/pallindrome.c)
+  * [C++](strings/pallindrome/pallindrome.cpp)
+  * [Java](strings/pallindrome/pallindrome.java)
+  * [Python](strings/pallindrome/pallindrome.py)
+* Pattern Searching
+  * KMP
+    * [C++](strings/pattern_searching/kmp/kmp.cpp)
+  * Z
+    * [C++](strings/pattern_searching/z/z.cpp)
+* Print KPC
+  * [Python](strings/print_kpc/printKpc.ipynb)
+* Reverse a String
+  * [C](strings/reverse_a_string/reverseString.c)
+  * [C++](strings/reverse_a_string/reverseString.cpp)
+  * [Java](strings/reverse_a_string/reverseString.java)
+  * [Python](strings/reverse_a_string/reverseString.py)
 * Subsequence
-  * [Python](STRINGS/Subsequence/PYTHON/Subsequence.ipynb)
+  * [Python](strings/subsequence/subsequence.ipynb)
 
 ***
 
-### GRAPHS
-
-* BREADTH FIRST SEARCH
-  * [C++](GRAPH_ALGORITHMS/C++/BFS.cpp)
-* DEPTH FIRST SEARCH
-  * [C++](GRAPH_ALGORITHMS/C++/DFS.cpp)
-* DIJKSTRA ALGORITHM
-  * [C++](GRAPH_ALGORITHMS/C++/DIJKSTRA.cpp)
-* KRUSKAL ALGORITHM
-  * [C++](GRAPH_ALGORITHMS/C++/KRUSKAL.cpp)
-* TOPOLOGICAL SORT
-  * [C++](GRAPH_ALGORITHMS/C++/topologicalSort.cpp)
-
-***
-
-### MISC
-
-* SPELL THE NUMBER
-  * [C](MISC/Spell-the-number/C/spell_the_number.c)
-* CAESAR-CIPHER
-  * [PYTHON](MISC/Caesar-Cipher/Python/caesar-cipher.py)
-* Rhombus Pattern
-  * [PYTHON](MISC/rhombus_patt.py)
-* COIN CHANGE PERMUTATION
-  * [PYTHON](MISC/Coin_Change_Permutation/PYTHON/CoinChangePer.py)
-* FIBONACCI_XOR
-  * [C++](MISC/Fibonacci_xor/C++/fibonacci_xor.cpp)
-* HALF PYRAMID
-  * [PYTHON](MISC/HALF_reverse_PYRAMID.py)
-* MAXIMUM NON ADJACENT SUM
-  * [PYTHON](MISC/Max_Sum/PYTHON/MaxNonAdjacentSum.py)
-* SUBARRAY-WITH-GIVEN-SUM
-  * [C++](MISC/subarray_with_given_sum/c++.cpp)
-* EQUILLIBRIUM-POINT-IN-AN-ARRAY
-  * [C++](MISC/equillibrium_point_in_array/c++.cpp)
-* KADANE ALGORITHM
-  * [C++](MISC/Kadane_Algorithm/C++/kadane.cpp)
-* IMPLEMENTATION OF THE SPARSE MATRIX
-  * [C](MISC/sparse_matrix.c)
-* FACTORIAL OF A NUMBER USING RECURSION
-  * [JAVA] (MISC/FactorialUsingRecursion.java)
-* PRIME FACTORIZATION
-  * [C++](MISC/prime_factorization/prime_factorization.cpp)
-
-***
-
-## LICENSE
-
-[GNU GENERAL PUBLIC LICENSE](LICENSE)
+[![GitHub](https://img.shields.io/github/license/TECHOUS/AlgoHeist?style=for-the-badge)](LICENSE)
 
 :copyright: TECHOUS 2019-21

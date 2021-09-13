@@ -2,7 +2,7 @@
 //using min element
 import java.util.*;
 
-public class descendingSelectionSort
+public class descSelectionSort
 {
     public static void main(String[] args)
     {
