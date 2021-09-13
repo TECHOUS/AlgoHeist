@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class shellSort
+public class descShellSort
 {
     public static void main(String[] args)
     {

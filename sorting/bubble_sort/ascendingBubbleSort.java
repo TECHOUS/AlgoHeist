@@ -1,10 +1,10 @@
-/*
+/**
  *  BUBBLE SORT
  *  --ASCENDING
  *  --STABLE SORT
- */
+ **/
 import java.util.*;
-public class BubbleSort
+public class ascendingBubbleSort
 {
     public static void main(String[] args)
     {

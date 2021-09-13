@@ -9,14 +9,14 @@ class BinarySearch{
      * @return int
      **/
     public static int binarySearch(int array[], int find){
-        int startIndex = 0, endIndex = arr.length, midIndex;
+        int startIndex = 0, endIndex = array.length, midIndex;
 
         while( startIndex < endIndex ){
             midIndex = (startIndex + endIndex) / 2;
-            if( arr[midIndex] == find ){
+            if( array[midIndex] == find ){
                 return midIndex;
             }
-            else if( find < arr[midIndex] ){
+            else if( find < array[midIndex] ){
                 endIndex = midIndex;
             }
             else{

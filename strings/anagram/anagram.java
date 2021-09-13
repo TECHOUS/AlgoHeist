@@ -1,4 +1,4 @@
-class Anagram{
+class anagram{
 
     public static String sort(String str){
 

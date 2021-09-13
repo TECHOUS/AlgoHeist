@@ -1,8 +1,8 @@
-//ascending
-//using max element
+//descending
+//using min element
 import java.util.*;
 
-public class SelectionSort
+public class descendingSelectionSort
 {
     public static void main(String[] args)
     {
@@ -16,7 +16,7 @@ public class SelectionSort
         {
             arr[i] = in.nextInt(); 
         }
-        selectionsort(arr);
+        selection(arr);
         in.close(); 
         for(int k=0;k<arr.length;k++)
         {
@@ -24,21 +24,21 @@ public class SelectionSort
         }
         System.out.println();
     }
-    public static void selectionsort(int[] array)
+    public static void selection(int[] array)
     {
         int i,j;
-        int max=0; //maximum index
+        int min=0; //minimum index
         for(i=array.length-1;i>0;i--)
         {
-            max=0;
-            for(j=0;j<=i;j++) //finding max index in the elements
+            min=0; //set minimum index to 0
+            for(j=0;j<=i;j++) //finding min index in the elements
             {
-                if(array[max] < array[j])
+                if(array[min] > array[j])
                 {
-                    max = j;
+                    min = j;
                 }
             }
-            swap(array,max,i);
+            swap(array,min,i);
         }
     }
     public static void swap(int[] arr,int a,int b)
