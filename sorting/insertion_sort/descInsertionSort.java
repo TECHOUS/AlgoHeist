@@ -1,5 +1,5 @@
 import java.util.*;
-public class InsertionSort
+public class descInsertionSort
 {
     public static void main(String[] args)
     {

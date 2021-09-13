@@ -7,8 +7,8 @@ using namespace std;
 // otherwise -1
 int binarySearch(int array[], int leftIndex, int rightIndex, int key)
 {
-	while (leftIndex<= r) {
-		int mid = leftIndex+ (rightIndex- l) / 2;
+	while (leftIndex<= rightIndex) {
+		int mid = leftIndex+ (rightIndex- leftIndex) / 2;
 
 		// Check if key is present at mid
 		if (array[mid] == key)

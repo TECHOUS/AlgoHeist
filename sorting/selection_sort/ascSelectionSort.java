@@ -1,8 +1,8 @@
-//descending
-//using min element
+//ascending
+//using max element
 import java.util.*;
 
-public class selectionsort
+public class ascSelectionSort
 {
     public static void main(String[] args)
     {
@@ -16,7 +16,7 @@ public class selectionsort
         {
             arr[i] = in.nextInt(); 
         }
-        selection(arr);
+        selectionsort(arr);
         in.close(); 
         for(int k=0;k<arr.length;k++)
         {
@@ -24,21 +24,21 @@ public class selectionsort
         }
         System.out.println();
     }
-    public static void selection(int[] array)
+    public static void selectionsort(int[] array)
     {
         int i,j;
-        int min=0; //minimum index
+        int max=0; //maximum index
         for(i=array.length-1;i>0;i--)
         {
-            min=0; //set minimum index to 0
-            for(j=0;j<=i;j++) //finding min index in the elements
+            max=0;
+            for(j=0;j<=i;j++) //finding max index in the elements
             {
-                if(array[min] > array[j])
+                if(array[max] < array[j])
                 {
-                    min = j;
+                    max = j;
                 }
             }
-            swap(array,min,i);
+            swap(array,max,i);
         }
     }
     public static void swap(int[] arr,int a,int b)
