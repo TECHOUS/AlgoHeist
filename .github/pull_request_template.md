@@ -4,35 +4,34 @@ Please mention the PR subject as `AlgoHeist21: Algorithm Name`
 
 ## Algorithm you like to add
 
-Mention the algorithm name here
+Reverse a Given String
 
 ## Programming Language for Algorithm Implementation
 
-Mention the language name here in which you will submit the code
+Ruby
 
 ## Code file name with extension
 
-Enter the code file name with extensionhere
-*make sure you use camel casing for code files such as binarySearch.c*
+reverseString.rb
 
 ## Did you watched Money Heist
 
-Yes / No
+No
 
 ### If Yes, mention your favourite character (optional)
 
-mention the character name here (for example Professor)
+Na
 
 ## YOU ARE
 
-a student / professional (choose any one)
+professional
 
 ## GITHUB USERNAME
 
-enter your username here
+dubey01
 
 ### We are looking for a name for this repository for next hacktober fest please suggest below (optional)
 
-`_____________`
+AlgoMuster22
 
 Thanks for your contributions !!

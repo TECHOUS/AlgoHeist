@@ -187,6 +187,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
   * [C++](strings/reverse_a_string/reverseString.cpp)
   * [Java](strings/reverse_a_string/reverseString.java)
   * [Python](strings/reverse_a_string/reverseString.py)
+  * [Ruby] (strings/reverse_a_string/reverseString.rb)
 * Subsequence
   * [Python](strings/subsequence/subsequence.ipynb)
 
