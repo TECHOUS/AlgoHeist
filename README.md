@@ -60,6 +60,8 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
   * [C++](graphs/depth_first_search/depthFirstSearch.cpp)
 * Dijkstra Algo
   * [C++](graphs/dijkstra/dijkstra.cpp)
+* Bellman-Ford Algorithm
+  * [C++](graphs/bellman_ford/bellmanFord.cpp)
 * Krushal Algo
   * [C++](graphs/krushal/krushal.cpp)
 * Topological Sort
