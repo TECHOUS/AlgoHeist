@@ -77,8 +77,8 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
   * [C++](misc/closest_pair_problem/closestPair.cpp)  
 * Coin Change Permutation
   * [Python](misc/coin_change_permutation/coinChangePer.py)
-* Equilibrium Point In Array
-  * [C++](misc/equillibrium_point_in_array/equillibriumPoint.cpp)
+* Equilibrium Point of an Array
+  * [C++](misc/equilibrium_point_of_an_array/equilibriumPoint.cpp)
 * Fibonacci XOR
   * [C++](misc/fibonacci_xor/fibonacciXor.cpp)
 * Kadane's Algorithm
