@@ -81,6 +81,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
   * [C++](misc/fibonacci_xor/fibonacciXor.cpp)
 * Kadane Algorithm
   * [C++](misc/kadane_algorithm/kadane.cpp)
+  * [Python](misc/kadane_algorithm/kadane.py)
 * Maximum Non Adjacent Sum
   * [Python](misc/maximum_non_adjacent_sum/maxNonAdjacentSum.py)
 * Prime Factorization
