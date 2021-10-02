@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-int isPallindrome(char str[]){
+int isPalindrome(char str[]){
 
     int len = strlen(str);
     int i;
@@ -28,10 +28,10 @@ int main(){
     scanf("%s", str);
 
     printf("%s is ", str);
-    if( ! isPallindrome(str) ){
+    if( ! isPalindrome(str) ){
         printf("not ");
     }
-    printf("Pallindrome\n");
+    printf("Palindrome\n");
 
     free(str);
 

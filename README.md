@@ -11,7 +11,7 @@ A repository to learn Algorithms via contributing in different languages, contri
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/TECHOUS/AlgoHeist?style=for-the-badge)
 
 
-**Contribute via Algorithms to win the Heist (i.e winning HacktoberFest Tee)**
+**Contribute via Algorithms to win the Heist (i.e. winning Hacktoberfest Tee)**
 
 ![Algorithm Image](.github/images/algo.png)
 
@@ -21,7 +21,7 @@ For contributions checkout [new updated guidelines](CONTRIBUTING.md)
 
 ***
 
-### **Hacktober Fest 21 Updates**
+### Hacktoberfest 2021 Updates
 
 PRs count if:
 
@@ -38,9 +38,9 @@ PRs count if:
 
   )
 
-*As a part of this update your PRs will be marked as `hacktoberfest-accepted` label before merging and don't get shocked PRs opened in this repository will be counted in the Hacktober Fest 21.*
+*As a part of this update your PRs will be marked as `hacktoberfest-accepted` label before merging and don't get shocked PRs opened in this repository will be counted in the Hacktoberfest 21.*
 
-Happy Hacking !
+Happy Hacking!
 
 ***
 
@@ -58,12 +58,12 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
   * [C++](graphs/breadth_first_search/breadthFirstSearch.cpp)
 * Depth First Search
   * [C++](graphs/depth_first_search/depthFirstSearch.cpp)
-* Dijkstra Algo
+* Dijkstra's Algorithm
   * [C++](graphs/dijkstra/dijkstra.cpp)
 * Bellman-Ford Algorithm
   * [C++](graphs/bellman_ford/bellmanFord.cpp)
-* Krushal Algo
-  * [C++](graphs/krushal/krushal.cpp)
+* Kruskal's Algorithm
+  * [C++](graphs/kruskal/kruskal.cpp)
 * Topological Sort
   * [C++](graphs/topological_sort/topologicalSort.cpp)
 
@@ -77,18 +77,18 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
   * [C++](misc/closest_pair_problem/closestPair.cpp)  
 * Coin Change Permutation
   * [Python](misc/coin_change_permutation/coinChangePer.py)
-* Equillibrium Point In Array
-  * [C++](misc/equillibrium_point_in_array/equillibriumPoint.cpp)
+* Equilibrium Point of an Array
+  * [C++](misc/equilibrium_point_of_an_array/equilibriumPoint.cpp)
 * Fibonacci XOR
   * [C++](misc/fibonacci_xor/fibonacciXor.cpp)
-* Kadane Algorithm
+* Kadane's Algorithm
   * [C++](misc/kadane_algorithm/kadane.cpp)
   * [Python](misc/kadane_algorithm/kadane.py)
 * Maximum Non Adjacent Sum
   * [Python](misc/maximum_non_adjacent_sum/maxNonAdjacentSum.py)
 * Prime Factorization
   * [C++](misc/prime_factorization/primeFactorization.cpp)
-* Spell The Number
+* Spell the Number
   * [C](misc/spell_the_number/spellTheNumber.c)
 * Subarray with Given Sum
   * [C++](misc/subarray_with_given_sum/subarrayWithGivenSum.cpp)
@@ -172,11 +172,11 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
   * [C++](strings/anagram/anagram.cpp)
   * [Java](strings/anagram/anagram.java)
   * [Python](strings/anagram/anagram.py)
-* Pallindrome
-  * [C](strings/pallindrome/pallindrome.c)
-  * [C++](strings/pallindrome/pallindrome.cpp)
-  * [Java](strings/pallindrome/pallindrome.java)
-  * [Python](strings/pallindrome/pallindrome.py)
+* Palindrome
+  * [C](strings/palindrome/palindrome.c)
+  * [C++](strings/palindrome/palindrome.cpp)
+  * [Java](strings/palindrome/palindrome.java)
+  * [Python](strings/palindrome/palindrome.py)
 * Pattern Searching
   * KMP
     * [C++](strings/pattern_searching/kmp/kmp.cpp)
