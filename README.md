@@ -110,7 +110,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
     * [C++](searching/linear_search/linearSearch.cpp)
     * [Java](searching/linear_search/linearSearch.java)
     * [JavaScript](searching/linear_search/linearSearch.js)
-    * [Ruby](searching/linear_search/linearSearchIteratively.rb)
+    * [Ruby] (searching/linear_search/linearSearchIteratively.rb)
   * Recursive
     * [C](searching/linear_search/recursiveLinearSearch.c)
 
@@ -187,7 +187,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
   * [C++](strings/reverse_a_string/reverseString.cpp)
   * [Java](strings/reverse_a_string/reverseString.java)
   * [Python](strings/reverse_a_string/reverseString.py)
-  * [Ruby] (strings/reverse_a_string/reverseString.rb)
+  * [Ruby](strings/reverse_a_string/reverseString.rb)
 * Subsequence
   * [Python](strings/subsequence/subsequence.ipynb)
 
