@@ -130,6 +130,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
     * [C - Unstable](sorting/bubble_sort/descUnstableBubbleSort.c)
 * Heap Sort
   * [C++](sorting/heap_sort/heapSort.cpp)
+  * [Python](sorting/heap_sort/heapSort.py)
 * Insertion Sort
   * Ascending
     * [Java - shifting bigger to right](sorting/insertion_sort/ascInsertionSort.java)
