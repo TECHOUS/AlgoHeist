@@ -74,6 +74,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
 * Caesar Cipher
   * [Python](misc/caesar_cipher/caesarCipher.py)
   * [C++](misc/caesar_cipher/caesarCipher.cpp)
+  * [C](misc/caesar_cipher/caesarCipher.c)
 * Closest Pair Problem
   * [C++](misc/closest_pair_problem/closestPair.cpp)  
 * Coin Change Permutation
