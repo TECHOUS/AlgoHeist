@@ -164,6 +164,9 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
     * [Java](sorting/shell_sort/ascShellSort.java)
   * Descending
     * [Java](sorting/shell_sort/descShellSort.java)
+* Bucket Sort
+  * Ascending
+    * [C++](sorting/bucket_sort/bucketSort.cpp)
 
 ***
 
