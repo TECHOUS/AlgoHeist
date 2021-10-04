@@ -73,6 +73,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
 
 * Caesar Cipher
   * [Python](misc/caesar_cipher/caesarCipher.py)
+  * [C++](misc/caesar_cipher/caesarCipher.cpp)
 * Closest Pair Problem
   * [C++](misc/closest_pair_problem/closestPair.cpp)  
 * Coin Change Permutation
@@ -113,9 +114,13 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
     * [C++](searching/linear_search/linearSearch.cpp)
     * [Java](searching/linear_search/linearSearch.java)
     * [JavaScript](searching/linear_search/linearSearch.js)
-    * [Ruby] (searching/linear_search/linearSearchIteratively.rb)
+    * [Ruby](searching/linear_search/linearSearchIteratively.rb)
   * Recursive
     * [C](searching/linear_search/recursiveLinearSearch.c)
+
+* Ternary Search
+  * Iterative
+    * [C++](searching/ternary_search/ternarySearch.cpp)
 
 ***
 
@@ -163,6 +168,9 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
     * [Java](sorting/shell_sort/ascShellSort.java)
   * Descending
     * [Java](sorting/shell_sort/descShellSort.java)
+* Bucket Sort
+  * Ascending
+    * [C++](sorting/bucket_sort/bucketSort.cpp)
 
 ***
 
