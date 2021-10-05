@@ -11,6 +11,6 @@ k = 7
 result = linear_search(my_list, k)
 
 if(result == -1):
-    print("Couln't find the specified element")
+    print("Couldn't find the specified element")
 else:
     print("Element found at index: ", result)
