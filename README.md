@@ -115,6 +115,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
     * [C++](searching/linear_search/linearSearch.cpp)
     * [Java](searching/linear_search/linearSearch.java)
     * [JavaScript](searching/linear_search/linearSearch.js)
+    * [Python](searching/linear_search/linearSearch.py)
     * [Ruby](searching/linear_search/linearSearchIteratively.rb)
   * Recursive
     * [C](searching/linear_search/recursiveLinearSearch.c)
