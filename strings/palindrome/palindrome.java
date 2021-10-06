@@ -1,6 +1,6 @@
-class Pallindrome{
+class Palindrome{
 
-    public static boolean isPallindrome(String str){
+    public static boolean isPalindrome(String str){
 
         int len = str.length();
 
@@ -23,10 +23,10 @@ class Pallindrome{
         }
         else{
             System.out.print(args[0] + " is ");
-            if( ! isPallindrome(args[0]) ){
+            if( ! isPalindrome(args[0]) ){
                 System.out.print("not ");
             }
-            System.out.println("Pallindrome");
+            System.out.println("Palindrome");
         }
     }
 }

@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int is_pallindrome(char str[]){
+int is_palindrome(char str[]){
 
     int Len = strlen(str);
 
@@ -25,9 +25,9 @@ int main(){
     cin.getline(str, 20);
 
     cout<<str <<" is ";
-    if( ! is_pallindrome(str) )
+    if( ! is_palindrome(str) )
         cout<<"not ";
-    cout<<"pallindrome\n";
+    cout<<"palindrome\n";
 
     return 0;
 }

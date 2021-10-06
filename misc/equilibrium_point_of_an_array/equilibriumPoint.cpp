@@ -1,4 +1,4 @@
-//find the equillibrium point in an array where the leftsum==right sum
+//find the equilibrium point of an array where the leftsum==right sum
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
