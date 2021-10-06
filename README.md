@@ -164,6 +164,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
     * [C - using min element](sorting/selection_sort/ascSelectionSortWithMin.c)
     * [Java - using max element](sorting/selection_sort/ascSelectionSort.java)
     * [Go - using min element](sorting/selection_sort/selectionSort.go)
+    * [Python - using min element](sorting/selection_sort/ascSelectionSort.py)
   * Descending
     * [C - using max element](sorting/selection_sort/descSelectionSortUsingMax.c)
     * [C - using min element](sorting/selection_sort/descSelectionSortUsingMin.c)
