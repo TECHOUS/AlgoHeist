@@ -149,6 +149,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
     * [Java - shifting smaller to right](sorting/insertion_sort/descInsertionSort.java)
 * Merge Sort
   * [Python](sorting/merge_sort/mergeSort.py)
+  * [C](sorting/merge_sort/mergeSort.c)
 * Quick Sort
   * [C++](sorting/quick_sort/quickSort.cpp)
   * [JavaScript](sorting/quick_sort/quickSort.js)
