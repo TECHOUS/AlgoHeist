@@ -156,6 +156,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
   * [C++](sorting/quick_sort/quickSort.cpp)
   * [JavaScript](sorting/quick_sort/quickSort.js)
   * [Python](sorting/quick_sort/animatedQuickSort.py)
+  * [C](sorting/quick_sort/quickSort.c)
 * Radix Sort
   * [C++](sorting/radix_sort/radixSort.cpp)
 * Selection Sort
