@@ -66,8 +66,13 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
   * [C++](graphs/kruskal/kruskal.cpp)
 * Topological Sort
   * [C++](graphs/topological_sort/topologicalSort.cpp)
+<<<<<<< HEAD
 * Floyd Warshall Algorithm
   * [C++](graphs/floyd_warshall_shortest_path_algo/FloydWarshall.cpp)
+=======
+* Strongly Connected Components
+  * [C++](graphs/strongly_connected_components/scc.cpp)  
+>>>>>>> 0b855d86c4e20ce20b0b3078dbc8aff9541470bb
 
 ***
 
@@ -76,6 +81,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
 * Caesar Cipher
   * [Python](misc/caesar_cipher/caesarCipher.py)
   * [C++](misc/caesar_cipher/caesarCipher.cpp)
+  * [C](misc/caesar_cipher/caesarCipher.c)
 * Closest Pair Problem
   * [C++](misc/closest_pair_problem/closestPair.cpp)  
 * Coin Change Permutation
@@ -116,6 +122,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
     * [C++](searching/linear_search/linearSearch.cpp)
     * [Java](searching/linear_search/linearSearch.java)
     * [JavaScript](searching/linear_search/linearSearch.js)
+    * [Python](searching/linear_search/linearSearch.py)
     * [Ruby](searching/linear_search/linearSearchIteratively.rb)
   * Recursive
     * [C](searching/linear_search/recursiveLinearSearch.c)
@@ -149,6 +156,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
     * [Java - shifting smaller to right](sorting/insertion_sort/descInsertionSort.java)
 * Merge Sort
   * [Python](sorting/merge_sort/mergeSort.py)
+  * [C](sorting/merge_sort/mergeSort.c)
 * Quick Sort
   * [C++](sorting/quick_sort/quickSort.cpp)
   * [JavaScript](sorting/quick_sort/quickSort.js)
@@ -161,6 +169,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
     * [C - using min element](sorting/selection_sort/ascSelectionSortWithMin.c)
     * [Java - using max element](sorting/selection_sort/ascSelectionSort.java)
     * [Go - using min element](sorting/selection_sort/selectionSort.go)
+    * [Python - using min element](sorting/selection_sort/ascSelectionSort.py)
   * Descending
     * [C - using max element](sorting/selection_sort/descSelectionSortUsingMax.c)
     * [C - using min element](sorting/selection_sort/descSelectionSortUsingMin.c)
