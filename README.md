@@ -149,6 +149,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
   * Ascending
     * [Java - shifting bigger to right](sorting/insertion_sort/ascInsertionSort.java)
     * [C](sorting/insertion_sort/ascInsertionSort.c)
+    * [C++](sorting/insertion_sort/ascInsertionSort.cpp) 
   * Descending
     * [Java - shifting smaller to right](sorting/insertion_sort/descInsertionSort.java)
 * Merge Sort
