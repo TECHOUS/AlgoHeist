@@ -96,6 +96,8 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
   * [C](misc/spell_the_number/spellTheNumber.c)
 * Subarray with Given Sum
   * [C++](misc/subarray_with_given_sum/subarrayWithGivenSum.cpp)
+* Fibonacci number using Matrix Exponentiation
+  * [C++](misc/fibonacci_matrix_exponentiation/fibonacci_Matrix_Exponentiation.cpp)  
 
 ***
 
@@ -156,6 +158,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
   * [C++](sorting/quick_sort/quickSort.cpp)
   * [JavaScript](sorting/quick_sort/quickSort.js)
   * [Python](sorting/quick_sort/animatedQuickSort.py)
+  * [C](sorting/quick_sort/quickSort.c)
 * Radix Sort
   * [C++](sorting/radix_sort/radixSort.cpp)
 * Selection Sort
