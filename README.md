@@ -101,7 +101,8 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
   * [C++](misc/fibonacci_matrix_exponentiation/fibonacci_Matrix_Exponentiation.cpp) 
 * Trapping Rain Water
   * [Python](misc/trapping_rain_water/trappingRainWater.py)
-
+* Finding Duplicate Element
+  * [C++](misc/finding_duplicate_element/findingDuplicateElement.cpp)
 ***
 
 ### searching
