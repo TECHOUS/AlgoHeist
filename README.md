@@ -97,7 +97,9 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
 * Subarray with Given Sum
   * [C++](misc/subarray_with_given_sum/subarrayWithGivenSum.cpp)
 * Fibonacci number using Matrix Exponentiation
-  * [C++](misc/fibonacci_matrix_exponentiation/fibonacci_Matrix_Exponentiation.cpp)  
+  * [C++](misc/fibonacci_matrix_exponentiation/fibonacci_Matrix_Exponentiation.cpp) 
+* Trapping Rain Water
+  * [Python](misc/trapping_rain_water/trappingRainWater.py)
 
 ***
 
