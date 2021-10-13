@@ -202,35 +202,35 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
 
 ### strings
 
-* Anagram
-  * [C](strings/anagram/anagram.c)
-  * [C++](strings/anagram/anagram.cpp)
-  * [Java](strings/anagram/anagram.java)
-  * [Python](strings/anagram/anagram.py)
-* Palindrome
-  * [C](strings/palindrome/palindrome.c)
-  * [C++](strings/palindrome/palindrome.cpp)
-  * [Java](strings/palindrome/palindrome.java)
-  * [Python](strings/palindrome/palindrome.py)
-* Pattern Searching
-  * KMP
-    * [C++](strings/pattern_searching/kmp/kmp.cpp)
-  * Z
-    * [C++](strings/pattern_searching/z/z.cpp)
-  * Rabin Karp
-    * [C++](strings/pattern_searching/rabin_karp/rabinKarp.cpp)
-* Print KPC
-  * [Python](strings/print_kpc/printKpc.ipynb)
-* Reverse a String
-  * [C](strings/reverse_a_string/reverseString.c)
-  * [C++](strings/reverse_a_string/reverseString.cpp)
-  * [Java](strings/reverse_a_string/reverseString.java)
-  * [Python](strings/reverse_a_string/reverseString.py)
-  * [Ruby](strings/reverse_a_string/reverseString.rb)
-* Subsequence
-  * [Python](strings/subsequence/subsequence.ipynb)
+- Anagram
+  - [C](strings/anagram/anagram.c)
+  - [C++](strings/anagram/anagram.cpp)
+  - [Java](strings/anagram/anagram.java)
+  - [Python](strings/anagram/anagram.py)
+- Palindrome
+  - [C](strings/palindrome/palindrome.c)
+  - [C++](strings/palindrome/palindrome.cpp)
+  - [Java](strings/palindrome/palindrome.java)
+  - [Python](strings/palindrome/palindrome.py)
+- Pattern Searching
+  - KMP
+    - [C++](strings/pattern_searching/kmp/kmp.cpp)
+  - Z
+    - [C++](strings/pattern_searching/z/z.cpp)
+  - Rabin Karp
+    - [C++](strings/pattern_searching/rabin_karp/rabinKarp.cpp)
+- Print KPC
+  - [Python](strings/print_kpc/printKpc.ipynb)
+- Reverse a String
+  - [C](strings/reverse_a_string/reverseString.c)
+  - [C++](strings/reverse_a_string/reverseString.cpp)
+  - [Java](strings/reverse_a_string/reverseString.java)
+  - [Python](strings/reverse_a_string/reverseString.py)
+  - [Ruby](strings/reverse_a_string/reverseString.rb)
+- Subsequence
+  - [Python](strings/subsequence/subsequence.ipynb)
 
-***
+---
 
 [![GitHub](https://img.shields.io/github/license/TECHOUS/AlgoHeist?style=for-the-badge)](LICENSE)
 
