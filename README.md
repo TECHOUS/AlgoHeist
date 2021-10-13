@@ -124,6 +124,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
     - [Python](searching/binary_search/binarySearch.py)
   - Recursive
     - [C](searching/binary_search/recursiveBinarySearch.c)
+    - [Java](searching/binary_search/recursiveBinarySearch.java)
     - [JavaScript](searching/binary_search/recursiveBinarySearch.js)
     - [Python](searching/binary_search/recursiveBinarySearch.py)
 
