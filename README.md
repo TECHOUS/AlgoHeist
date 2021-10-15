@@ -217,6 +217,8 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
     - [C++](strings/pattern_searching/kmp/kmp.cpp)
   - Z
     - [C++](strings/pattern_searching/z/z.cpp)
+  - Rabin Karp
+    - [C++](strings/pattern_searching/rabin_karp/rabinKarp.cpp)
 - Print KPC
   - [Python](strings/print_kpc/printKpc.ipynb)
 - Reverse a String
