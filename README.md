@@ -93,6 +93,8 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
   - [Python](misc/coin_change_permutation/coinChangePer.py)
 - Equilibrium Point of an Array
   - [C++](misc/equilibrium_point_of_an_array/equilibriumPoint.cpp)
+- Euclidean GCD
+  - [Python](misc/euclidean_gcd/EuclideanGCD.py)
 - Fibonacci XOR
   - [C++](misc/fibonacci_xor/fibonacciXor.cpp)
 - Kadane's Algorithm
@@ -100,6 +102,8 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
   - [Python](misc/kadane_algorithm/kadane.py)
 - Maximum Non Adjacent Sum
   - [Python](misc/maximum_non_adjacent_sum/maxNonAdjacentSum.py)
+- Nth-Prime
+  - [Python](misc/nth_prime/nthPrime.py)
 - Prime Factorization
   - [C++](misc/prime_factorization/primeFactorization.cpp)
 - Spell the Number
