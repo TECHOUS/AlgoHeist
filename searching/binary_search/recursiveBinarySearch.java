@@ -1,13 +1,14 @@
-class BinarySearch{
+public class BinarySearch {
 
-  public int search(int[] nums, int target) {
+	public static int search(int[] nums, int target) {
       return subSearch(nums, 0, nums.length-1, target);
   }
 
-  private int subSearch(int[] nums, int startIndex, int endIndex, int target) {
+  private static int subSearch(int[] nums, int startIndex, int endIndex, int target) {
       int midIndex = (endIndex + startIndex) / 2;
+    
       if (midIndex < startIndex || midIndex > endIndex) 
-        return -1;
+        return -1; 
     
       if (target == nums[midIndex]) {
           return midIndex;
@@ -23,5 +24,13 @@ class BinarySearch{
     
       return -1;
   }
-  
+
+	public static void main(String[] args){
+		int[] array = {3, 6, 9, 12, 15, 18};
+		for (int i = 0; i < 20; i++) {
+			int loc = search(array, i);
+			System.out.println(i + ": " + loc);
+		}
+	}
+
 }
