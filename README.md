@@ -60,12 +60,8 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
 
 ---
 ### dynamic_programming
-- DP Minimum Coin Change
-  - [Python](dynamic_programming/DP_Coin_Change.py)
 - Edit Distance
   - [Python](dynamic_programming/Edit_Distance.py)
-- Primitive Calculator
-  - [Python](dynamic_programming/Primitive_Calculator.py)
 
 ---
 
