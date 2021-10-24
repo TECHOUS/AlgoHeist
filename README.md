@@ -188,6 +188,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
     - [C - using max element](sorting/selection_sort/ascSelectionSortWithMax.c)
     - [C - using min element](sorting/selection_sort/ascSelectionSortWithMin.c)
     - [Java - using max element](sorting/selection_sort/ascSelectionSort.java)
+    - [JavaScript - using min element](sorting/selection_sort/ascSelectionSort.js)
     - [Go - using min element](sorting/selection_sort/selectionSort.go)
     - [Python - using min element](sorting/selection_sort/ascSelectionSort.py)
   - Descending
