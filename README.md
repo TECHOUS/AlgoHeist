@@ -61,7 +61,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
 ---
 ### dynamic_programming
 - Edit Distance
-  - [Python](dynamic_programming/Edit_Distance.py)
+  - [Python](dynamic_programming/EditDistance.py)
 
 ---
 
