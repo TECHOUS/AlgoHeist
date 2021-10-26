@@ -84,7 +84,8 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
 ---
 
 ### misc
-
+- Binary Arithmetics
+  - [C++](misc/binary_arithmetics/binary_adder.cpp)
 - Caesar Cipher
   - [Python](misc/caesar_cipher/caesarCipher.py)
   - [C++](misc/caesar_cipher/caesarCipher.cpp)
