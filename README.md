@@ -78,6 +78,8 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
   - [C++](graphs/strongly_connected_components/scc.cpp)
 - Floyd Warshall Algorithm
   - [C++](graphs/floyd_warshall/floydWarshall.cpp)
+- Prim's Algorithm
+  - [C++](graphs/prim's_algorithm/primsAlgo.cpp)
 
 ---
 
