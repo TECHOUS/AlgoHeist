@@ -107,6 +107,8 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
 - Kadane's Algorithm
   - [C++](misc/kadane_algorithm/kadane.cpp)
   - [Python](misc/kadane_algorithm/kadane.py)
+- Ip Tools
+  - [c++](misc/ip_tools/ips_in_range.cpp)
 - Maximum Non Adjacent Sum
   - [Python](misc/maximum_non_adjacent_sum/maxNonAdjacentSum.py)
 - Nth-Prime
