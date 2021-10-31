@@ -3,7 +3,7 @@ def start_program #method defination
     array = take_array_elements(array_size)
     element = element_to_search
     
-    index_found_at = linear_search(array, element)
+    index_found_at = binary_search(array, element, 0, array_size - 1)
     
     if index_found_at == -1
         puts "Ughh... the element you want to search is not present in the given array"
@@ -37,16 +37,22 @@ def element_to_search
     return element
 end
 
-def linear_search(array, element, index = 0) #default value of index to be searched at is set to 0
-    if array.size == index
-        return -1 #element not found in the array
-
-    elsif array[index] == element
-        return index
-    else
-        linear_search(array, element, index+1)
+def binary_search(array, element, starts, ends)
+    if(starts > ends)
+        return -1
     end
+
+    mid = starts + ((ends - starts)/2)
+    if(array[mid] == element)
+        return mid
+
+    elsif array[mid] > element
+        ends = mid - 1
+    elsif array[mid] < element
+        starts = mid + 1
+    end
+
+    binary_search(array, element, starts, ends)
 end
 
-
-start_program #calls the method for execution
+start_program
