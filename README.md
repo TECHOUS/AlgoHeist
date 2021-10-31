@@ -140,6 +140,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
     - [Java](searching/binary_search/recursiveBinarySearch.java)
     - [JavaScript](searching/binary_search/recursiveBinarySearch.js)
     - [Python](searching/binary_search/recursiveBinarySearch.py)
+    - [Ruby](searching/binary_search/recursiveBinarySearch.rb)
 
 - Linear Search
 
