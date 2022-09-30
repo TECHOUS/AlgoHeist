@@ -2,8 +2,9 @@
 
 A repository to learn Algorithms via contributing in different languages, contribute as much as you can !!!
 
-![GitHub closed pull requests by-label](https://img.shields.io/github/issues-pr-closed/TECHOUS/AlgoHeist/HacktoberFest21?style=for-the-badge&color=cyan)
-![GitHub pull requests by-label](https://img.shields.io/github/issues-pr/TECHOUS/AlgoHeist/HacktoberFest21?color=red&style=for-the-badge)
+![GitHub closed pull requests by-label](https://img.shields.io/github/issues-pr-closed/TECHOUS/AlgoHeist/HacktoberFest22?style=for-the-badge&color=cyan)
+![GitHub pull requests by-label](https://img.shields.io/github/issues-pr/TECHOUS/AlgoHeist/HacktoberFest22?color=red&style=for-the-badge)
+![GitHub closed pull requests by-label](https://img.shields.io/github/issues-pr-closed/TECHOUS/AlgoHeist/HacktoberFest21?color=lightgreen&style=for-the-badge)
 ![GitHub closed pull requests by-label](https://img.shields.io/github/issues-pr-closed/TECHOUS/AlgoHeist/HacktoberFest20?color=lightgreen&style=for-the-badge)
 ![GitHub Repo stars](https://img.shields.io/github/stars/TECHOUS/AlgoHeist?style=for-the-badge&color=yellow)
 ![GitHub top language](https://img.shields.io/github/languages/top/TECHOUS/AlgoHeist?style=for-the-badge&color=pink)
@@ -14,13 +15,13 @@ A repository to learn Algorithms via contributing in different languages, contri
 
 ![Algorithm Image](.github/images/algo.png)
 
-## Contributing Guidelines (Updated for 2021)
+## Contributing Guidelines
 
 For contributions checkout [new updated guidelines](CONTRIBUTING.md)
 
 ---
 
-### Hacktoberfest 2021 Updates
+### Hacktoberfest 2022 Updates
 
 PRs count if:
 
@@ -39,7 +40,7 @@ PRs count if:
 
   )
 
-_As a part of this update your PRs will be marked as `hacktoberfest-accepted` label before merging and don't get shocked PRs opened in this repository will be counted in the Hacktoberfest 21._
+_As a part of this update your PRs will be marked as `hacktoberfest-accepted` label before merging and don't get shocked PRs opened in this repository will be counted in the Hacktoberfest 22._
 
 Happy Hacking!
 
@@ -250,4 +251,4 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
 
 [![GitHub](https://img.shields.io/github/license/TECHOUS/AlgoHeist?style=for-the-badge)](LICENSE)
 
-:copyright: TECHOUS 2019-21
+:copyright: TECHOUS 2019-22
