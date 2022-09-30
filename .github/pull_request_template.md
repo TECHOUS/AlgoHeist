@@ -1,6 +1,6 @@
-# HacktoberFest 21
+# HacktoberFest 22
 
-Please mention the PR subject as `AlgoHeist21: Algorithm Name`
+Please mention the PR subject as `AlgoHeist22: Algorithm Name`
 
 ## Algorithm you like to add
 

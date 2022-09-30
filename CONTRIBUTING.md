@@ -29,7 +29,7 @@ For contributing in October read all these guidelines given below:
 * After sending the PR, wait for the response from our side
 
 * PR Review Process
-  * Firstly if the PR seems to be valid then it will be labelled as `HacktoberFest21` and with the `specific language label` and will be linked to the `Project` via maintainer
+  * Firstly if the PR seems to be valid then it will be labelled as `HacktoberFest22` and with the `specific language label` and will be linked to the `Project` via maintainer
   * If the PR is wrongly sent then it will be marked as `invalid`
   * Secondly after adding the labels if everything seems fine either your PR will be approved or the PR will be marked for Request Changes
   * Before merging the changes the PR will be marked with **hacktoberfest-accepted** label
