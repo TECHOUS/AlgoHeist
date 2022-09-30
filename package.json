@@ -1,0 +1,12 @@
+{
+    "name": "algoheist",
+    "version": "1.0.0",
+    "description": "A repository for algorithms in different languages for the beginners to contribute and learn.",
+    "main": "index.js",
+    "repository": "git@github.com:TechOUs/AlgoHeist.git",
+    "author": "Gaurav Walia <gauravwalia019@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "husky": "^7.0.0"
+    }
+}

@@ -19,3 +19,6 @@
 *.class
 *.jar
 *.war
+
+# project files
+node_modules/
