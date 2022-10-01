@@ -245,7 +245,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
   - [Ruby](strings/reverse_a_string/reverseString.rb)
 - Subsequence
   - [Python](strings/subsequence/subsequence.ipynb)
-
+  - [C++](strings/subsequence/subsequence.cpp)
 ---
 
 [![GitHub](https://img.shields.io/github/license/TECHOUS/AlgoHeist?style=for-the-badge)](LICENSE)
