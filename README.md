@@ -84,7 +84,7 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
 - Floyd Warshall Algorithm
   - [C++](graphs/floyd_warshall/floydWarshall.cpp)
 - Tarjan's Bridge in Graph
-  -[C++](graphs/bridges_in_graph/BridgesinGraph.cpp)
+  - [C++](graphs/bridges_in_graph/BridgesinGraph.cpp)
 
 ---
 
