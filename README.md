@@ -249,6 +249,10 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
   - [C++](strings/subsequence/subsequence.cpp)
 ---
 
+### trie
+- Implementation
+  - [C++](trie/trieImplementation.cpp)
+
 [![GitHub](https://img.shields.io/github/license/TECHOUS/AlgoHeist?style=for-the-badge)](LICENSE)
 
 :copyright: TECHOUS 2019-22
