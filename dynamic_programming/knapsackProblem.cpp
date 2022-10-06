@@ -26,7 +26,7 @@ int knapSack(intn, int W, int wt[], int val[])
 
   while (i > 0 && j > 0) {
     if(cost[i][j] != cost[i-1][j]) {
-      printf("%d\n",i);
+      cout<<i<<endl;
       j = j-wm[i];
       i = i-1;
     }
