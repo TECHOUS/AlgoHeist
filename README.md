@@ -62,6 +62,8 @@ We are following [**Contributor Covenant Code of Conduct**](.github/CODE_OF_COND
 ### dynamic_programming
 - Edit Distance
   - [Python](dynamic_programming/EditDistance.py) 
+- Knapsack Problem
+  - [C++](dynamic_programming/knapsackProblem.cpp)
 
 ---
 
