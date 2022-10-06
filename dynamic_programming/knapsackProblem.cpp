@@ -1,6 +1,7 @@
-#this program solves the knapsack problem in c++ landuage
-#Function to return max value that can be put in knapsack of capacity W.
-int knapSack(int W, int wt[], int val[], int n) 
+#include<iostream>
+using namespace std;
+
+int knapSack(intn, int W, int wt[], int val[]) 
 { 
    long int dp[n+1][W+1];
    int i,j;
@@ -18,3 +19,27 @@ int knapSack(int W, int wt[], int val[], int n)
     }
    return dp[n][W];
  }
+ 
+ void items(int n, int W, int wm[]) {
+  int i = n;
+  int j = W;
+
+  while (i > 0 && j > 0) {
+    if(cost[i][j] != cost[i-1][j]) {
+      printf("%d\n",i);
+      j = j-wm[i];
+      i = i-1;
+    }
+    else {
+      i = i-1;
+    }
+  }
+}
+
+ int main() {
+  int wm[] = {0, 3, 2, 4, 1};
+  int vm[] = {0, 8, 3, 9, 6};
+  knapSack(4, 5, wm, vm);
+  items(4, 5, wm);
+  return 0;
+}
